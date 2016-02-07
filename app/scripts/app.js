@@ -18,6 +18,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch'
+    // Create your app with 'youtube-embed' dependency
+    //var myApp = angular.module('myApp', ['youtube-embed'])
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -30,6 +32,11 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
+      })
+      .when('/looks', {
+        templateUrl: 'views/looks.html',
+        controller: 'LooksCtrl',
+        controllerAs: 'looks'
       })
       .otherwise({
         redirectTo: '/'
