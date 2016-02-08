@@ -4,33 +4,55 @@ html {
 
 body {
   overflow-x: hidden;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 #my-nav {
-  margin-bottom: 0;
+  margin-top: 20px;
   border-radius: 0;
   border: 0;
-  padding-top: 50px;
-  background: black;
+  border-bottom: 1px solid #7F7F7F;
+  background: #7F7F7F;
 }
 
 #my-nav a {
   color: white;
-  
+  font-size: 30px;
 }
 
 .navbar-nav.nav-justified > li{
   float:none;
-  padding-right: 15px;
+  padding-right: 2px;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: rgba(127,127,127,.02);
+  border-radius: 0;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #7F7F7F;
+  background-color: white;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #7F7F7F;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #E0E0E0;
+  border-radius: 0;
 }
 
 #link-button {
-  padding-top: 100px;
+  padding-top: 70px;
   border-radius: 0;
-  border: 1px solid black;
+  border: 1px solid transparent;
   display: block;
-  background: black;
+  background: #7F7F7F;
 }
 
 .space-box {
@@ -42,8 +64,9 @@ body {
 #my-button {
   padding: 25px 30px;
   border-radius: 0;
-  border: 1px solid black;
+  border: 1px solid #7F7F7F;
   display: inline-block;
+  font-size: 30px;
 }
 
 .main-image {
@@ -61,13 +84,67 @@ body {
   padding: 400px;
 }
 
-.inspiration {
-  margin-top: 100px;
-  font-size: 65px;
-  color: #7a7a7a;
+.space-box-three {
+  padding: 100px;
+}
+
+.question {
+  font-weight: light;
+  margin-top: 40px;
+  font-size: 48px;
 }
 
 .text-muted {
   font-size: 17px;
   color: #B7B7B7;
+}
+
+.daytime-image {
+  background-attachment: scroll;
+  background-image: url("../images/daytime.png");
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-top: 3px solid white;
+}
+
+.evening-image {
+  background-attachment: scroll;
+  background-image: url("../images/evening.png");
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+}
+
+.mixup-image {
+  background-attachment: scroll;
+  background-image: url("../images/mixitup.png");
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+}
+
+#looks-button {
+  margin-top: 180px;
+  margin-left: 120px;
+  padding: 25px 30px;
+  border-radius: 0;
+  border: 1px solid white;
+  display: inline-block;
+  font-size: 35px;
+  background: transparent;
+  color: white;
 }

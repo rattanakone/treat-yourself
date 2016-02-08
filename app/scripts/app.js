@@ -38,6 +38,11 @@ angular
         controller: 'LooksCtrl',
         controllerAs: 'looks'
       })
+      .when('/daytime', {
+        templateUrl: 'views/daytime.html',
+        controller: 'DaytimeCtrl',
+        controllerAs: 'daytime'
+      })
       .otherwise({
         redirectTo: '/'
       });
