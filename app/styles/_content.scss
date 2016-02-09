@@ -48,7 +48,7 @@ body {
 }
 
 #link-button {
-  padding-top: 70px;
+  padding: 30px;
   border-radius: 0;
   border: 1px solid transparent;
   display: block;
@@ -90,8 +90,9 @@ body {
 
 .question {
   font-weight: light;
-  margin-top: 40px;
+  margin-top: 100px;
   font-size: 48px;
+  color: #7F7F7F;
 }
 
 .text-muted {
@@ -147,4 +148,28 @@ body {
   font-size: 35px;
   background: transparent;
   color: white;
+}
+
+.daytime-text {
+  font-weight: light;
+  margin-top: 100px;
+  font-size: 48px;
+  color: #7F7F7F;
+}
+
+.video-labels {
+  font-weight: light;
+  margin-top: 100px;
+  font-size: 30px;
+  border: 1px solid #7F7F7F;
+  margin: 15px;
+  padding: 10px;
+  color: #7F7F7F;
+}
+
+#video-border {
+  border: 1px solid #7F7F7F;
+  padding: 1em;
+  margin: 1em;
+  height: 400px;
 }
