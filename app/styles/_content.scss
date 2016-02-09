@@ -8,16 +8,20 @@ body {
 }
 
 #my-nav {
-  margin-top: 20px;
+  margin-top: 50px;
   border-radius: 0;
   border: 0;
-  border-bottom: 1px solid #7F7F7F;
   background: #7F7F7F;
 }
 
 #my-nav a {
   color: white;
   font-size: 30px;
+}
+
+#my-nav a:hover {
+  background: white;
+  color: #7F7F7F;
 }
 
 .navbar-nav.nav-justified > li{
@@ -48,7 +52,7 @@ body {
 }
 
 #link-button {
-  padding: 30px;
+  padding: 20px;
   border-radius: 0;
   border: 1px solid transparent;
   display: block;
@@ -85,12 +89,12 @@ body {
 }
 
 .space-box-three {
-  padding: 100px;
+  padding: 115px;
 }
 
 .question {
   font-weight: light;
-  margin-top: 100px;
+  margin-top: 70px;
   font-size: 48px;
   color: #7F7F7F;
 }
@@ -160,11 +164,10 @@ body {
 .video-labels {
   font-weight: light;
   margin-top: 100px;
-  font-size: 30px;
+  font-size: 25px;
   border: 1px solid #7F7F7F;
   margin: 15px;
   padding: 10px;
-  color: #7F7F7F;
 }
 
 #video-border {
@@ -172,4 +175,12 @@ body {
   padding: 1em;
   margin: 1em;
   height: 400px;
+}
+
+#theme-button {
+  padding: 25px;
+  border-radius: 0;
+  border: 1px solid #7F7F7F;
+  display: inline-block;
+  font-size: 25px;
 }

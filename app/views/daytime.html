@@ -40,14 +40,14 @@
 <br>
 <br>
 <br>
-
-<div class="row">
+<div ng-show="themeOne">
+	<div class="row">
 	<div class="col-md-4 text-center">
 		<p class="video-labels">
 			makeup
 		</p>
 		<div class="embed-responsive embed-responsive-4by3" id="video-border">
-			<div ng-bind-html="currentVideo"></div> 
+			<div ng-bind-html="firstMakeupVideo"></div> 
 		</div>
 	</div>
 	<div class="col-md-4 text-center">
@@ -55,17 +55,214 @@
 			hair
 		</p>
 		<div class="embed-responsive embed-responsive-4by3" id="video-border">
-			<div ng-bind-html="testVideo"></div> 
+			<div ng-bind-html="firstHairVideo"></div> 
 		</div>
 	</div>
 	<div class="col-md-4 text-center">
 		<p class="video-labels">
-			clothes
+			outfit
 		</p>
 		<div class="embed-responsive embed-responsive-4by3" id="video-border">
-			<div ng-bind-html="currentVideo"></div> 
+			<div ng-bind-html="firstOutfitVideo"></div> 
 		</div>
 	</div>
 </div>
+<br>
+<br>
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<a href="/treat-yourself/#/" class="btn btn-default" id="theme-button">save button</a>
+	</div>
+</div>
+</div>
 
+<br>
+<br>
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<a href ng-click="themeOne = !themeOne" class="btn btn-default" id="theme-button">theme 1 button</a>
+	</div>
+</div>
+<br>
+<div ng-show="themeTwo">
+	<div class="row">
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			makeup
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstMakeupVideo"></div> 
+		</div>
+	</div>
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			hair
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstHairVideo"></div> 
+		</div>
+	</div>
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			outfit
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstOutfitVideo"></div> 
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<a href="/treat-yourself/#/" class="btn btn-default" id="theme-button">save button</a>
+	</div>
+</div>
+</div>
+
+<br>
+<br>
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<a href ng-click="themeTwo = !themeTwo" class="btn btn-default" id="theme-button">theme 2 button</a>
+	</div>
+</div>
+<br>
+<div ng-show="themeThree">
+	<div class="row">
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			makeup
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstMakeupVideo"></div> 
+		</div>
+	</div>
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			hair
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstHairVideo"></div> 
+		</div>
+	</div>
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			outfit
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstOutfitVideo"></div> 
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<a href="/treat-yourself/#/" class="btn btn-default" id="theme-button">save button</a>
+	</div>
+</div>
+</div>
+
+<br>
+<br>
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<a href ng-click="themeThree = !themeThree" class="btn btn-default" id="theme-button">theme 3 button</a>
+	</div>
+</div>
+<br>
+<div ng-show="themeFour">
+	<div class="row">
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			makeup
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstMakeupVideo"></div> 
+		</div>
+	</div>
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			hair
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstHairVideo"></div> 
+		</div>
+	</div>
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			outfit
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstOutfitVideo"></div> 
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<a href="/treat-yourself/#/" class="btn btn-default" id="theme-button">save button</a>
+	</div>
+</div>
+</div>
+
+<br>
+<br>
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<a href ng-click="themeFour = !themeFour" class="btn btn-default" id="theme-button">theme 4 button</a>
+	</div>
+</div>
+<br>
+<div ng-show="themeFive">
+	<div class="row">
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			makeup
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstMakeupVideo"></div> 
+		</div>
+	</div>
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			hair
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstHairVideo"></div> 
+		</div>
+	</div>
+	<div class="col-md-4 text-center">
+		<p class="video-labels">
+			outfit
+		</p>
+		<div class="embed-responsive embed-responsive-4by3" id="video-border">
+			<div ng-bind-html="firstOutfitVideo"></div> 
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<a href="/treat-yourself/#/" class="btn btn-default" id="theme-button">save button</a>
+	</div>
+</div>
+</div>
+
+<br>
+<br>
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<a href ng-click="themeFive = !themeFive" class="btn btn-default" id="theme-button">theme 5 button</a>
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
