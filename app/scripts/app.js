@@ -43,6 +43,11 @@ angular
         controller: 'DaytimeCtrl',
         controllerAs: 'daytime'
       })
+      .when('/evening', {
+        templateUrl: 'views/evening.html',
+        controller: 'EveningCtrl',
+        controllerAs: 'evening'
+      })
       .otherwise({
         redirectTo: '/'
       });

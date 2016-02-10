@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc function
- * @name treatYourselfApp.controller:DaytimeCtrl
+ * @name treatYourselfApp.controller:EveningCtrl
  * @description
- * # DaytimeCtrl
+ * # EveningCtrl
  * Controller of the treatYourselfApp
  */
 angular.module('treatYourselfApp')
-  .controller('DaytimeCtrl', function ($scope, $sce) {
-
+  .controller('EveningCtrl', function ($scope, $sce) {
+  	
     $scope.firstMakeupVideoId = '9OFpfTd0EIs';
     $scope.firstHairVideoId = 'AR8D2yqgQ1U';
     $scope.firstOutfitVideoId = 'ZZyGDiUnta4';
@@ -72,3 +72,4 @@ angular.module('treatYourselfApp')
     $scope.themeFive = false;
 
   });
+

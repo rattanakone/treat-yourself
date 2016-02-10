@@ -178,9 +178,16 @@ body {
 }
 
 #theme-button {
-  padding: 25px;
+  padding: 35px 85px;
   border-radius: 0;
   border: 1px solid #7F7F7F;
   display: inline-block;
   font-size: 25px;
+}
+
+.evening-text {
+  font-weight: light;
+  margin-top: 100px;
+  font-size: 48px;
+  color: #7F7F7F;
 }
