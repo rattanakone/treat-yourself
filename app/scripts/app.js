@@ -17,9 +17,9 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
+    'ngStorage', // added to enable localStorage features
     'ngTouch'
-    // Create your app with 'youtube-embed' dependency
-    //var myApp = angular.module('myApp', ['youtube-embed'])
+    
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -47,6 +47,21 @@ angular
         templateUrl: 'views/evening.html',
         controller: 'EveningCtrl',
         controllerAs: 'evening'
+      })
+      .when('/mix', {
+        templateUrl: 'views/mix.html',
+        controller: 'MixCtrl',
+        controllerAs: 'mix'
+      })
+      .when('/favorite', {
+        templateUrl: 'views/favorite.html',
+        controller: 'FavoriteCtrl',
+        controllerAs: 'favorite'
+      })
+      .when('/guru', {
+        templateUrl: 'views/guru.html',
+        controller: 'GuruCtrl',
+        controllerAs: 'guru'
       })
       .otherwise({
         redirectTo: '/'

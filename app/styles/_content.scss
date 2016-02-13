@@ -26,7 +26,7 @@ body {
 
 .navbar-nav.nav-justified > li{
   float:none;
-  padding-right: 2px;
+  padding-left: 30px;
 }
 
 .navbar-default .navbar-collapse {
@@ -52,7 +52,7 @@ body {
 }
 
 #link-button {
-  padding: 20px;
+  padding: 50px;
   border-radius: 0;
   border: 1px solid transparent;
   display: block;
@@ -188,6 +188,47 @@ body {
 .evening-text {
   font-weight: light;
   margin-top: 100px;
+  font-size: 48px;
+  color: #7F7F7F;
+}
+
+.mix-text {
+  font-weight: light;
+  margin-top: 100px;
+  font-size: 48px;
+  color: #7F7F7F;
+}
+
+.guru-text {
+  font-weight: light;
+  margin-top: 70px;
+  font-size: 48px;
+  color: #7F7F7F;
+}
+
+.guru-two-text {
+  font-weight: light;
+  font-size: 55px;
+  color: #7F7F7F;
+  letter-spacing: 1px;
+}
+
+#website-button {
+  padding: 15px 85px;
+  border-radius: 0;
+  border: 1px solid #7F7F7F;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.search-text {
+  font-weight: light;
+  margin-top: 100px;
+  margin-bottom: 50px;
   font-size: 48px;
   color: #7F7F7F;
 }
