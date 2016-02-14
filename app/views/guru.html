@@ -68,43 +68,70 @@
 <br>
 <br>
 <br>
-<br>
-<section class="bg-light-gray">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <p class="search-text">
-        discover more of her videos
-      </p>
+<section class="bg-black">
+  <div ng-controller="GuruCtrl">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p class="search-text">
+          discover more of Michelle's videos
+        </p>
+        </div>
+        <div class="col-lg-12 text-center">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="search for keywords" id="search-box-colors" name="keywords" ng-model="keywords">
+              <span class="input-group-btn">
+                <button class="btn btn-default" id="search-button-colors" type="button" ng-click="refreshButton()"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+              </span>
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
       </div>
-      <div class="col-lg-12 text-center">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search for...">
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-            </span>
-        </div><!-- /input-group -->
-      </div><!-- /.col-lg-6 -->
     </div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-lg-12 text-center">
-    <script src="https://apis.google.com/js/platform.js"></script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-4 col-md-4 col-lg-4 text-center" id="no-link">
+          <a ng-href="https://www.youtube.com/embed/{{video.items[0].id.videoId}}" target="_blank">
+          <img width="300" height="220" ng-src="{{video.items[0].snippet.thumbnails.high.url}}" /><br>
+          <p class="title-font">{{video.items[0].snippet.title}}</p></a>
+      </div>
+      <div class="col-sm-4 col-md-4 col-lg-4 text-center" id="no-link">
+          <a ng-href="https://www.youtube.com/embed/{{video.items[1].id.videoId}}" target="_blank">
+          <img width="300" height="220" ng-src="{{video.items[1].snippet.thumbnails.high.url}}" /><br>
+          <p class="title-font">{{video.items[1].snippet.title}}</p></a>
+      </div>
+      <div class="col-sm-4 col-md-4 col-lg-4 text-center" id="no-link">
+          <a ng-href="https://www.youtube.com/embed/{{video.items[2].id.videoId}}" target="_blank">
+          <img width="300" height="220" ng-src="{{video.items[2].snippet.thumbnails.high.url}}" /><br>
+          <p class="title-font">{{video.items[2].snippet.title}}</p></a>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-4 col-md-4 col-lg-4 text-center" id="no-link">
+          <a ng-href="https://www.youtube.com/embed/{{video.items[3].id.videoId}}" target="_blank">
+          <img width="300" height="220" ng-src="{{video.items[3].snippet.thumbnails.high.url}}" /><br>
+          <p class="title-font">{{video.items[3].snippet.title}}</p></a>
+      </div>
+      <div class="col-sm-4 col-md-4 col-lg-4 text-center" id="no-link">
+          <a ng-href="https://www.youtube.com/embed/{{video.items[4].id.videoId}}" target="_blank">
+          <img width="300" height="220" ng-src="{{video.items[4].snippet.thumbnails.high.url}}" /><br>
+          <p class="title-font">{{video.items[4].snippet.title}}</p></a>
+      </div>
+      <div class="col-sm-4 col-md-4 col-lg-4 text-center" id="no-link">
+          <a ng-href="https://www.youtube.com/embed/{{video.items[5].id.videoId}}" target="_blank">
+          <img width="300" height="220" ng-src="{{video.items[5].snippet.thumbnails.high.url}}" /><br>
+          <p class="title-font">{{video.items[5].snippet.title}}</p></a>
+      </div>
+    </div>
+</div>
+  
+<br>
+<br>
 
-<div class="g-ytsubscribe" data-channelid="UCuYx81nzzz4OFQrhbKDzTng" data-layout="full" data-count="default"></div>
-    </div>
-  </div> 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 </section>
 
 

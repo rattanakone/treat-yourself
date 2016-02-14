@@ -8,10 +8,13 @@
  * Controller of the treatYourselfApp
  */
 angular.module('treatYourselfApp')
-  .controller('GuruCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('GuruCtrl', function ($scope, guru) {
+    $scope.video = guru.query();
+
+    $scope.refreshButton = function(){
+        $scope.video = guru.query({
+            keywords: $scope.keywords
+        });
+    };
+
   });

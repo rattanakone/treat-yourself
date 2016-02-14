@@ -11,22 +11,22 @@ body {
   margin-top: 50px;
   border-radius: 0;
   border: 0;
-  background: #7F7F7F;
+  background: black;
 }
 
 #my-nav a {
   color: white;
-  font-size: 30px;
+  font-size: 37px;
 }
 
 #my-nav a:hover {
   background: white;
-  color: #7F7F7F;
+  color: black;
 }
 
 .navbar-nav.nav-justified > li{
   float:none;
-  padding-left: 30px;
+  padding-left: 23px;
 }
 
 .navbar-default .navbar-collapse {
@@ -35,13 +35,13 @@ body {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #7F7F7F;
+  border-color: white;
   background-color: white;
   border-radius: 0;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #7F7F7F;
+  background-color: black;
   border-radius: 0;
 }
 
@@ -56,7 +56,7 @@ body {
   border-radius: 0;
   border: 1px solid transparent;
   display: block;
-  background: #7F7F7F;
+  background: black;
 }
 
 .space-box {
@@ -68,9 +68,10 @@ body {
 #my-button {
   padding: 25px;
   border-radius: 0;
-  border: 1px solid #7F7F7F;
+  border: 1px solid black;
   display: inline-block;
   font-size: 30px;
+  color: black;
 }
 
 .main-image {
@@ -94,9 +95,10 @@ body {
 
 .question {
   font-weight: light;
-  margin-top: 70px;
+  margin-top: 100px;
+  margin-bottom: 150px;
   font-size: 48px;
-  color: #7F7F7F;
+  color: black;
 }
 
 .text-muted {
@@ -106,40 +108,40 @@ body {
 
 .daytime-image {
   background-attachment: scroll;
-  background-image: url("../images/daytime.png");
+  background-image: url("../images/placeholderimage.jpg");
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  border-top: 3px solid white;
+  border-top: 1px solid black;
 }
 
 .evening-image {
   background-attachment: scroll;
-  background-image: url("../images/evening.png");
+  background-image: url("../images/placeholderimage.jpg");
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  border-left: 3px solid white;
-  border-top: 3px solid white;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .mixup-image {
   background-attachment: scroll;
-  background-image: url("../images/mixitup.png");
+  background-image: url("../images/placeholderimage.jpg");
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  border-left: 3px solid white;
-  border-top: 3px solid white;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
 }
 
 #looks-button {
@@ -147,31 +149,32 @@ body {
   margin-left: 120px;
   padding: 25px 30px;
   border-radius: 0;
-  border: 1px solid white;
+  border: 1px solid black;
   display: inline-block;
   font-size: 35px;
   background: transparent;
-  color: white;
+  color: black;
 }
 
 .daytime-text {
   font-weight: light;
   margin-top: 100px;
   font-size: 48px;
-  color: #7F7F7F;
+  color: black;
 }
 
 .video-labels {
   font-weight: light;
   margin-top: 100px;
   font-size: 25px;
-  border: 1px solid #7F7F7F;
+  border: 1px solid black;
   margin: 15px;
   padding: 10px;
+  color: black;
 }
 
 #video-border {
-  border: 1px solid #7F7F7F;
+  border: 1px solid black;
   padding: 1em;
   margin: 1em;
   height: 400px;
@@ -180,9 +183,10 @@ body {
 #theme-button {
   padding: 35px 85px;
   border-radius: 0;
-  border: 1px solid #7F7F7F;
+  border: 1px solid black;
   display: inline-block;
   font-size: 25px;
+  color: black;
 }
 
 .evening-text {
@@ -196,39 +200,77 @@ body {
   font-weight: light;
   margin-top: 100px;
   font-size: 48px;
-  color: #7F7F7F;
+  color: black;
 }
 
 .guru-text {
   font-weight: light;
   margin-top: 70px;
   font-size: 48px;
-  color: #7F7F7F;
+  color: black;
 }
 
 .guru-two-text {
   font-weight: light;
   font-size: 55px;
-  color: #7F7F7F;
+  color: black;
   letter-spacing: 1px;
 }
 
 #website-button {
   padding: 15px 85px;
   border-radius: 0;
-  border: 1px solid #7F7F7F;
+  border: 1px solid black;
   display: inline-block;
-  font-size: 25px;
+  font-size: 35px;
+  color: black;
 }
 
-.bg-light-gray {
-    background-color: #f7f7f7;
+.bg-black {
+    background-color: black;
 }
 
 .search-text {
   font-weight: light;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 50px;
   font-size: 48px;
-  color: #7F7F7F;
+  color: white;
+}
+
+#search-box-colors {
+  color: black;
+  font-size: 18px;
+  border: 1px solid black; 
+}
+
+.form-control::-webkit-input-placeholder { 
+  color: black;
+  font-size: 18px; 
+}
+.form-control:-moz-placeholder { 
+  color: black;
+  font-size: 18px;  
+}
+.form-control::-moz-placeholder { 
+  color: black;
+  font-size: 18px;  
+}
+.form-control:-ms-input-placeholder { 
+  color: black;
+  font-size: 18px;  
+}
+
+#search-button-colors {
+  background: white;
+  border: 1px solid black;
+}
+
+.title-font {
+  color: white;
+  font-size: 35px;
+}
+
+#no-link a {
+  text-decoration: none;
 }
