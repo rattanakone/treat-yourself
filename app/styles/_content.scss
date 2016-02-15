@@ -60,17 +60,18 @@ body {
 }
 
 .space-box {
-  padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 #main-button {
   padding: 25px 30px;
   border-radius: 0;
-  border: 1px solid white;
+  border: 1px solid black;
   display: inline-block;
   font-size: 35px;
-  color: white;
-  background: black;
+  color: black;
+  background: white;
 }
 
 .main-image {
@@ -106,7 +107,7 @@ body {
 }
 
 .text-muted {
-  font-size: 23px;
+  font-size: 28px;
   color: #7F7F7F;
 }
 
@@ -300,7 +301,7 @@ body {
   font-weight: light;
   font-size: 60px;
   color: black;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 #main-border {
