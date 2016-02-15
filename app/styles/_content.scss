@@ -47,7 +47,7 @@ body {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #E0E0E0;
+  background-color: #7F7F7F;
   border-radius: 0;
 }
 
@@ -60,18 +60,17 @@ body {
 }
 
 .space-box {
-  padding-top: 280px;
-  margin: 50px;
-  padding-bottom: 150px;
+  padding: 50px;
 }
 
-#my-button {
-  padding: 25px;
+#main-button {
+  padding: 25px 35px;
   border-radius: 0;
-  border: 1px solid black;
+  border: 1px solid white;
   display: inline-block;
-  font-size: 30px;
-  color: black;
+  font-size: 35px;
+  color: white;
+  background: black;
 }
 
 .main-image {
@@ -83,6 +82,8 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .space-box-two {
@@ -93,17 +94,21 @@ body {
   padding: 115px;
 }
 
+.space-box-four {
+  padding: 50px;
+}
+
 .question {
   font-weight: light;
   margin-top: 100px;
   margin-bottom: 150px;
-  font-size: 48px;
+  font-size: 55px;
   color: black;
 }
 
 .text-muted {
-  font-size: 17px;
-  color: #B7B7B7;
+  font-size: 28px;
+  color: #7F7F7F;
 }
 
 .daytime-image {
@@ -159,25 +164,26 @@ body {
 .daytime-text {
   font-weight: light;
   margin-top: 100px;
-  font-size: 48px;
+  font-size: 55px;
   color: black;
 }
 
 .video-labels {
   font-weight: light;
   margin-top: 100px;
-  font-size: 25px;
+  font-size: 35px;
   border: 1px solid black;
   margin: 15px;
   padding: 10px;
   color: black;
+  background: white;
 }
 
 #video-border {
   border: 1px solid black;
   padding: 1em;
   margin: 1em;
-  height: 400px;
+  height: 315px;
 }
 
 #theme-button {
@@ -185,34 +191,35 @@ body {
   border-radius: 0;
   border: 1px solid black;
   display: inline-block;
-  font-size: 25px;
-  color: black;
+  font-size: 35px;
+  color: white;
+  background: black;
 }
 
 .evening-text {
   font-weight: light;
   margin-top: 100px;
-  font-size: 48px;
-  color: #7F7F7F;
+  font-size: 55px;
+  color: black;
 }
 
 .mix-text {
   font-weight: light;
   margin-top: 100px;
-  font-size: 48px;
+  font-size: 55px;
   color: black;
 }
 
 .guru-text {
   font-weight: light;
   margin-top: 70px;
-  font-size: 48px;
+  font-size: 55px;
   color: black;
 }
 
 .guru-two-text {
   font-weight: light;
-  font-size: 55px;
+  font-size: 60px;
   color: black;
   letter-spacing: 1px;
 }
@@ -223,11 +230,12 @@ body {
   border: 1px solid black;
   display: inline-block;
   font-size: 35px;
-  color: black;
+  color: white;
+  background: black;
 }
 
 .bg-black {
-    background-color: black;
+  background-color: black;
 }
 
 .search-text {
@@ -273,4 +281,34 @@ body {
 
 #no-link a {
   text-decoration: none;
+}
+
+#shuffle-button {
+  padding: 35px 85px;
+  border-radius: 0;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 35px;
+  color: black;
+}
+
+#hide-button {
+  padding: 35px 85px;
+  border-radius: 0;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 35px;
+  color: black;
+  background: white;
+}
+
+.main-title {
+  font-weight: light;
+  font-size: 55px;
+  color: black;
+  margin-top: 200px;
+}
+
+#main-border {
+  border-top: 1px solid black;
 }
