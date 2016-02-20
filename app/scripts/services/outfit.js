@@ -13,7 +13,7 @@ angular.module('treatYourselfApp')
     // ...
 
     // Public API here
-    return $resource('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLATkQeyUmMO3zjv0hF1DWE8ND5qF0JiCh&key=AIzaSyDZqbprMDMRgEyeJV3ink9cCfqzwpvs8xY', {}, {
+    return $resource('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLB1FC53D6063660EF&key=AIzaSyDZqbprMDMRgEyeJV3ink9cCfqzwpvs8xY', {}, {
       query: {
         method:'GET',
         params:{

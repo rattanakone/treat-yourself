@@ -48,6 +48,9 @@
       makeup
     </p>
     <div class="embed-responsive embed-responsive-4by3" id="video-border"> 
+      <center>
+        <h1>?</h1>
+      </center>
       <div ng-bind-html="makeupVideoEmbed"></div> 
     </div>
     <br>
@@ -62,11 +65,14 @@
       hair
     </p>
     <div class="embed-responsive embed-responsive-4by3" id="video-border">
-      <div ng-bind-html="firstHairVideo"></div> 
+      <center>
+        <h1>?</h1>
+      </center>
+      <div ng-bind-html="hairVideoEmbed"></div> 
     </div>
     <br>
     <br>
-    <a href="/treat-yourself/#/" class="btn btn-default" id="shuffle-button">shuffle</a>
+    <a class="btn btn-default" id="shuffle-button" ng-click="randomHairVideo()">shuffle</a>
     <br>
     <br>
     <br>
@@ -76,11 +82,14 @@
       outfit
     </p>
     <div class="embed-responsive embed-responsive-4by3" id="video-border">
-      <div ng-bind-html="firstOutfitVideo"></div> 
+      <center>
+        <h1>?</h1>
+      </center>
+      <div ng-bind-html="outfitVideoEmbed"></div> 
     </div>
     <br>
     <br>
-    <a href="/treat-yourself/#/" class="btn btn-default" id="shuffle-button">shuffle</a>
+    <a class="btn btn-default" id="shuffle-button" ng-click="randomOutfitVideo()">shuffle</a>
     <br>
     <br>
     <br>
