@@ -8,7 +8,7 @@ body {
 }
 
 #my-nav {
-  margin-top: 50px;
+  margin-top: 15px;
   border-radius: 0;
   border: 0;
   background: black;
@@ -52,7 +52,7 @@ body {
 }
 
 #link-button {
-  padding: 50px;
+  padding: 25px;
   border-radius: 0;
   border: 1px solid transparent;
   display: block;
@@ -65,7 +65,7 @@ body {
 }
 
 #main-button {
-  padding: 25px 30px;
+  padding: 15px 30px;
   border-radius: 0;
   border: 1px solid black;
   display: inline-block;
@@ -76,15 +76,15 @@ body {
 
 .main-image {
   background-attachment: scroll;
-  background-image: url("../images/placeholder.jpg");
+  background-image: url("../images/three.png");
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  border-left: 1px solid black;
   border-top: 1px solid black;
+  border-left: 1px solid black;
 }
 
 .space-box-two {
@@ -107,7 +107,7 @@ body {
 }
 
 .text-muted {
-  font-size: 28px;
+  font-size: 25px;
   color: #7F7F7F;
 }
 
@@ -179,6 +179,7 @@ body {
   padding: 1em;
   margin: 1em;
   height: 315px;
+  background: black;
 }
 
 #theme-button {
@@ -200,7 +201,7 @@ body {
 
 .mix-text {
   font-weight: light;
-  margin-top: 100px;
+  margin-top: 30px;
   font-size: 55px;
   color: black;
 }
@@ -279,7 +280,7 @@ body {
 }
 
 #shuffle-button {
-  padding: 35px 85px;
+  padding: 15px;
   border-radius: 0;
   border: 1px solid black;
   display: inline-block;
@@ -301,9 +302,99 @@ body {
   font-weight: light;
   font-size: 60px;
   color: black;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 #main-border {
   border-top: 1px solid black;
+}
+
+.question-mark {
+  font-size: 125px;
+  color: white;
+}
+
+/* #snow{
+  background: none;
+  background-image: url("../images/s1.png"), url("../images/s2.png"), url("../images/s3.png");
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index:1;
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+} */
+
+.splatter {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; 
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; 
+}
+
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+          animation-name: zoomIn;
 }
