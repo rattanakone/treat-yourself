@@ -5,7 +5,6 @@ div[ng-view].ng-enter {
 div[ng-view].ng-leave {
     -webkit-animation: fadeOut 0.5s;
     animation: fadeOut 0.5s;
-	animation: fadeOut 0.2s;
 }
 .fadein.ng-hide-remove,
 .fadeout.ng-hide-add {
