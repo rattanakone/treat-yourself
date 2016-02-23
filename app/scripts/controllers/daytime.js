@@ -8,11 +8,11 @@
  * Controller of the treatYourselfApp
  */
 angular.module('treatYourselfApp')
-  .controller('DaytimeCtrl', function ($scope) {
+  .controller('DaytimeCtrl', function ($scope, $sce) {
 
-    // $scope.firstMakeupVideoId = '9OFpfTd0EIs';
-    // $scope.firstHairVideoId = 'AR8D2yqgQ1U';
-    // $scope.firstOutfitVideoId = 'ZZyGDiUnta4';
+     $scope.firstMakeupVideoId = '9OFpfTd0EIs';
+     $scope.firstHairVideoId = 'AR8D2yqgQ1U';
+     $scope.firstOutfitVideoId = 'ZZyGDiUnta4';
 
     // $scope.secondMakeupVideoId = 'p3j2NYZ8FKs';
     // $scope.secondHairVideoId = 'zpOULjyy-n8';
@@ -31,12 +31,12 @@ angular.module('treatYourselfApp')
     // $scope.fifthOutfitVideoId = 'AR8D2yqgQ1U';
 
     
-    // var firstMakeupEmbedCode = '<iframe width="580" height="350" src="https://www.youtube.com/embed/' + $scope.firstMakeupVideoId + '" frameborder="0" allowfullscreen></iframe>';
-    // $scope.firstMakeupVideo = $sce.trustAsHtml(firstMakeupEmbedCode);
-    // var firstHairEmbedCode = '<iframe width="580" height="350" src="https://www.youtube.com/embed/' + $scope.firstHairVideoId + '" frameborder="0" allowfullscreen></iframe>';
-    // $scope.firstHairVideo = $sce.trustAsHtml(firstHairEmbedCode);
-    // var firstOutfitEmbedCode = '<iframe width="580" height="350" src="https://www.youtube.com/embed/' + $scope.firstOutfitVideoId + '" frameborder="0" allowfullscreen></iframe>';
-   	// $scope.firstOutfitVideo = $sce.trustAsHtml(firstOutfitEmbedCode);
+     var firstMakeupEmbedCode = '<iframe width="580" height="350" src="https://www.youtube.com/embed/' + $scope.firstMakeupVideoId + '" frameborder="0" allowfullscreen></iframe>';
+     $scope.firstMakeupVideo = $sce.trustAsHtml(firstMakeupEmbedCode);
+     var firstHairEmbedCode = '<iframe width="580" height="350" src="https://www.youtube.com/embed/' + $scope.firstHairVideoId + '" frameborder="0" allowfullscreen></iframe>';
+     $scope.firstHairVideo = $sce.trustAsHtml(firstHairEmbedCode);
+     var firstOutfitEmbedCode = '<iframe width="580" height="350" src="https://www.youtube.com/embed/' + $scope.firstOutfitVideoId + '" frameborder="0" allowfullscreen></iframe>';
+   	 $scope.firstOutfitVideo = $sce.trustAsHtml(firstOutfitEmbedCode);
 
     // var secondMakeupEmbedCode = '<iframe width="580" height="350" src="https://www.youtube.com/embed/' + $scope.secondMakeupVideoId + '" frameborder="0" allowfullscreen></iframe>';
     // $scope.secondMakeupVideo = $sce.trustAsHtml(secondMakeupEmbedCode); 
