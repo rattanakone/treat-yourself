@@ -1,4 +1,7 @@
-
+div[ng-view].ng-leave {
+    -webkit-animation: fadeOut 0.5s;
+    animation: fadeOut 0.5s;
+}
 
 .fadein.ng-hide-remove,
 .fadeout.ng-hide-add {
