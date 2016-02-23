@@ -85,6 +85,11 @@ body {
   -o-background-size: cover;
   border-top: 1px solid black;
   border-left: 1px solid black;
+  -moz-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s;
 }
 
 .space-box-two {
@@ -447,4 +452,12 @@ body {
 .zoomIn {
   -webkit-animation-name: zoomIn;
           animation-name: zoomIn;
+}
+
+#test-fade-in {
+  -moz-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s;
 }
