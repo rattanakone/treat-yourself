@@ -4,60 +4,12 @@ html {
 
 body {
   overflow-x: hidden;
-  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 }
 
-#my-nav {
-  margin-top: 15px;
-  border-radius: 0;
-  border: 0;
-  background: black;
-}
 
-#my-nav a {
-  color: white;
-  font-size: 37px;
-}
 
-#my-nav a:hover {
-  background: white;
-  color: black;
-}
 
-.navbar-nav.nav-justified > li{
-  float:none;
-  padding-left: 23px;
-}
-
-.navbar-default .navbar-collapse {
-  border-color: rgba(127,127,127,.02);
-  border-radius: 0;
-}
-
-.navbar-default .navbar-toggle {
-  border-color: white;
-  background-color: white;
-  border-radius: 0;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: black;
-  border-radius: 0;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #7F7F7F;
-  border-radius: 0;
-}
-
-#link-button {
-  padding: 25px;
-  border-radius: 0;
-  border: 1px solid transparent;
-  display: block;
-  background: black;
-}
 
 .space-box {
   padding-top: 100px;
@@ -318,4 +270,146 @@ body {
   font-size: 125px;
   color: white;
 }
+
+
+
+/* start main view */
+
+
+
+.main-models {
+  background-image: url('../images/ronny.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  -moz-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s;
+  color: white;
+}
+
+.intro-text {
+  font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  padding-top: 300px;
+  padding-bottom: 400px;
+}
+.intro-text .intro-lead-in {
+  font-size: 35px;
+  -moz-animation: fadeIn 9s;
+  -ms-animation: fadeIn 9s;
+  -o-animation: fadeIn 9s;
+  -webkit-animation: fadeIn 9s;
+  animation: fadeIn 9s;
+}
+.bottom-main-title {
+  font-size: 20px;
+}
+
+hr {
+  border-color: #ffffff;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+  -moz-animation: fadeIn 12s;
+  -ms-animation: fadeIn 12s;
+  -o-animation: fadeIn 12s;
+  -webkit-animation: fadeIn 12s;
+  animation: fadeIn 12s;
+}
+
+@media (min-width: 768px) {
+  .main-models .intro-text {
+    padding-top: 250px;
+    padding-bottom: 200px;
+  }
+  .main-models .intro-text .intro-lead-in {
+    font-size: 80px;
+    -moz-animation: fadeIn 9s;
+    -ms-animation: fadeIn 9s;
+    -o-animation: fadeIn 9s;
+    -webkit-animation: fadeIn 9s;
+    animation: fadeIn 9s;
+  }
+  .main-models .bottom-main-title {
+    font-size: 25px;
+  }
+
+  hr {
+  border-color: #ffffff;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+  -moz-animation: fadeIn 12s;
+  -ms-animation: fadeIn 12s;
+  -o-animation: fadeIn 12s;
+  -webkit-animation: fadeIn 12s;
+  animation: fadeIn 12s;
+  }
+  
+}
+
+/* start navigation */
+
+#my-nav {
+  border-radius: 0;
+  border: 0;
+  background: rgba(0,0,0,0.1);
+  padding: 20px;
+  -moz-animation: fadeIn 13s;
+  -ms-animation: fadeIn 13s;
+  -o-animation: fadeIn 13s;
+  -webkit-animation: fadeIn 13s;
+  animation: fadeIn 13s;
+}
+
+#my-nav a {
+  color: white;
+  font-size: 20px;
+}
+
+#my-nav a:hover {
+  background: white;
+  color: black;
+}
+
+#link-button {
+  border-radius: 0;
+  border: 1px solid transparent;
+  background: transparent;
+}
+
+.navbar-nav.nav-justified > li{
+  float:none;
+  padding-left: 23px;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: rgba(127,127,127,.02);
+  border-radius: 0;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+  background-color: white;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #7F7F7F;
+  border-radius: 0;
+}
+
 
