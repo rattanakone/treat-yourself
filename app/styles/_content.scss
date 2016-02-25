@@ -293,13 +293,13 @@ body {
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
   color: white;
-  border-bottom: 1px solid white;
+
 }
 
 .intro-text {
   font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-  padding-top: 220px;
-  padding-bottom: 200px;
+  padding-top: 370px;
+  padding-bottom: 350px;
 }
 .intro-text .intro-lead-in {
   font-size: 40px;
@@ -327,8 +327,8 @@ hr .title {
 
 @media (min-width: 768px) {
   .main-models .intro-text {
-    padding-top: 250px;
-    padding-bottom: 200px;
+    padding-top: 270px;
+    padding-bottom: 100px;
   }
   .main-models .intro-text .intro-lead-in {
     font-size: 80px;
@@ -356,9 +356,30 @@ hr .title {
   
 }
 
+.start-button {
+  padding: 15px 25px;
+  border-radius: 0;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 20px;
+  background: white;
+  color: black;
+  -moz-animation: fadeIn 25s;
+  -ms-animation: fadeIn 25s;
+  -o-animation: fadeIn 25s;
+  -webkit-animation: fadeIn 25s;
+  animation: fadeIn 25s;
+}
+
+.start-button:hover {
+  color: white;
+  background: rgba(0,0,0,0.4);
+  border-color: transparent;
+}
+
 /* start navigation */
 
-#my-nav {
+#main-nav {
   border-radius: 0;
   border: 0;
   background: rgba(0,0,0,0.1);
@@ -370,12 +391,12 @@ hr .title {
   animation: fadeIn 13s;
 }
 
-#my-nav a {
+#main-nav a {
   color: white;
-  font-size: 17px;
+  font-size: 19px;
 }
 
-#my-nav a:hover {
+#main-nav a:hover {
   background: rgba(255,255,255,0.4);
   color: black;
 }
@@ -413,7 +434,7 @@ hr .title {
   border-radius: 0;
 }
 
-/* start inspire and explore section */
+/* start looks section */
 
 .bg-light-gray {
     background-color: #f7f7f7;
@@ -425,10 +446,6 @@ hr .title {
   padding-bottom: 200px;
   color: black;
 }
-
-
-
-/* start looks section */
 
 .daytime-looks {
   background-image: url('../images/daytime.png');
@@ -505,7 +522,7 @@ hr .title {
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 25px;
+  font-size: 17px;
   background: white;
   color: black;
   margin-left: 200px;
