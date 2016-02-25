@@ -554,8 +554,9 @@ hr .title {
 
 .question-title {
   font-size: 55px;
-  
   color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 
@@ -580,7 +581,7 @@ hr .title {
 }
 
 #looks-nav a:hover {
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.6);
   color: white;
 }
 
