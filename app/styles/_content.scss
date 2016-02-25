@@ -278,7 +278,7 @@ body {
 
 
 .main-models {
-  background-image: url('../images/ronny.png');
+  background-image: url('../images/ronny1.png');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -293,15 +293,16 @@ body {
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
   color: white;
+  border-bottom: 1px solid white;
 }
 
 .intro-text {
   font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-  padding-top: 300px;
-  padding-bottom: 400px;
+  padding-top: 220px;
+  padding-bottom: 200px;
 }
 .intro-text .intro-lead-in {
-  font-size: 35px;
+  font-size: 40px;
   -moz-animation: fadeIn 9s;
   -ms-animation: fadeIn 9s;
   -o-animation: fadeIn 9s;
@@ -309,10 +310,10 @@ body {
   animation: fadeIn 9s;
 }
 .bottom-main-title {
-  font-size: 20px;
+  font-size: 17px;
 }
 
-hr {
+hr .title {
   border-color: #ffffff;
   border-style: solid none;
   border-width: 1px 0;
@@ -341,7 +342,7 @@ hr {
     font-size: 25px;
   }
 
-  hr {
+  hr .title {
   border-color: #ffffff;
   border-style: solid none;
   border-width: 1px 0;
@@ -371,11 +372,11 @@ hr {
 
 #my-nav a {
   color: white;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 #my-nav a:hover {
-  background: white;
+  background: rgba(255,255,255,0.4);
   color: black;
 }
 
@@ -391,25 +392,126 @@ hr {
 }
 
 .navbar-default .navbar-collapse {
-  border-color: rgba(127,127,127,.02);
+  border-color: transparent;
   border-radius: 0;
 }
 
 .navbar-default .navbar-toggle {
-  border-color: white;
-  background-color: white;
+  border-color: transparent;
+  background-color: transparent;
   border-radius: 0;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: black;
+  background-color: white;
   border-radius: 0;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #7F7F7F;
+  background-color: transparent;
   border-radius: 0;
 }
 
+/* start inspire and explore section */
 
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.question-title {
+  font-size: 60px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: black;
+}
+
+
+
+/* start looks section */
+
+.daytime-looks {
+  background-image: url('../images/daytime.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  -moz-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s;
+  color: white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.evening-looks {
+  background-image: url('../images/evening.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  -moz-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s;
+  color: white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.mix-looks {
+  background-image: url('../images/mix.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  -moz-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s;
+  color: white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+
+
+.space-looks {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.lookbook-title {
+  font-size: 40px;
+}
+
+.lookbook-buttons {
+  border-radius: 0;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 25px;
+  background: white;
+  color: black;
+  margin-left: 200px;
+}
+
+.lookbook-buttons:hover {
+  color: white;
+  background: rgba(0,0,0,0.4);
+  border-color: transparent;
+}
