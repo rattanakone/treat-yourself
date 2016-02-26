@@ -357,7 +357,7 @@ hr .title {
 }
 
 .start-button {
-  padding: 15px 25px;
+  padding: 15px 50px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
@@ -454,8 +454,7 @@ hr .title {
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
   color: white;
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
+  border-bottom: 15px solid white;
 }
 
 .evening-looks {
@@ -474,8 +473,8 @@ hr .title {
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
   color: white;
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
+  border-bottom: 15px solid white;
+  border-left: 15px solid white;
 }
 
 .mix-looks {
@@ -494,8 +493,8 @@ hr .title {
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
   color: white;
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
+  border-bottom: 15px solid white;
+  border-left: 15px solid white;
 }
 
 
@@ -548,15 +547,12 @@ hr .title {
   padding-top: 750px;
 }
 
-.bg-light-gray {
-    background-color: #f7f7f7;
-}
 
 .question-title {
   font-size: 55px;
   color: black;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 
