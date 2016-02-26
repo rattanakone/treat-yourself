@@ -331,7 +331,7 @@ hr .title {
   border-color: transparent;
   display: inline-block;
   font-size: 20px;
-  background: white;
+  background: rgba(255,255,255,0.8);
   color: black;
   -moz-animation: fadeIn 25s;
   -ms-animation: fadeIn 25s;
@@ -478,13 +478,25 @@ hr .title {
 }
 
 .lookbook-buttons {
+  padding: 5px 20px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 17px;
-  background: white;
+  font-size: 15px;
+  background: rgba(255,255,255,0.8);
   color: black;
-  margin-left: 200px;
+  margin-left: 115px;
+}
+
+.mix-lookbook-button {
+  padding: 5px 20px;
+  border-radius: 0;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 15px;
+  background: rgba(255,255,255,0.8);
+  color: black;
+  margin-left: 120px;
 }
 
 .lookbook-buttons:hover {
@@ -493,11 +505,54 @@ hr .title {
   border-color: transparent;
 }
 
+.mix-lookbook-button:hover {
+  color: white;
+  background: rgba(0,0,0,0.4);
+  border-color: transparent;
+}
+
 .question-title {
-  font-size: 55px;
+  font-size: 45px;
   color: black;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 50px;
+}
+
+.daytime-logo {
+  margin-left: 120px;
+  font-size: 35px;
+  padding-bottom: 5px;
+}
+
+.evening-logo {
+  margin-left: 120px;
+  font-size: 35px;
+  padding-bottom: 5px;
+}
+
+.mix-logo {
+  margin-left: 120px;
+  font-size: 35px;
+  padding-bottom: 5px;
+}
+
+.daytime-looks:hover .view-looks-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.evening-looks:hover .view-looks-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mix-looks:hover .view-looks-button {
+  visibility: visible;
+  opacity: 1;
+}
+.view-looks-button {
+  visibility: hidden;
+  opacity: 0;
 }
 
 
@@ -581,6 +636,16 @@ hr .title {
   -o-background-size: cover;
 }
 
+.work-image:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.view-button {
+  visibility: hidden;
+  opacity: 0;
+}
+
 .space-daytime {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -602,6 +667,16 @@ hr .title {
   background-size: cover;
   -o-background-size: cover;
   }
+
+  .work-image:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+  }
+
+  .view-button {
+  visibility: hidden;
+  opacity: 0;
+  }
 }
 
 .video-labels {
@@ -613,13 +688,13 @@ hr .title {
 }
 
 #video-label-daytime {
-  padding: 10px 100px;
+  padding: 5px 20px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 17px;
-  background: white;
-  color: black;
+  font-size: 30px;
+  background: rgba(0,0,0,0.1);
+  color: white;
 }
 
 #video-border {
@@ -633,30 +708,41 @@ hr .title {
   #video-border {
     padding: 1em;
     margin: 1em;
-    height: 315px;
-    width: 420px;
+    height: 320px;
     background: black;
   }
 }
 
 #theme-button {
-  padding: 10px 20px;
+  padding: 5px 30px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 17px;
-  background: white;
+  font-size: 15px;
+  background: rgba(255,255,255,0.8);
   color: black;
 }
 
 #hide-button {
-  padding: 10px 20px;
+  padding: 5px 30px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 17px;
-  background: white;
+  font-size: 15px;
+  background: rgba(255,255,255,0.8);
   color: black;
+}
+
+#theme-button:hover {
+  color: white;
+  background: rgba(0,0,0,0.4);
+  border-color: transparent;
+}
+
+#hide-button:hover {
+  color: white;
+  background: rgba(0,0,0,0.4);
+  border-color: transparent;
 }
 
 .work-look-title {
@@ -670,3 +756,5 @@ hr .title {
     font-size: 70px;
   }
 }
+
+
