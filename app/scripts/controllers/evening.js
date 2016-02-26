@@ -8,7 +8,7 @@
  * Controller of the treatYourselfApp
  */
 angular.module('treatYourselfApp')
-  .controller('EveningCtrl', function ($scope, $sce) {
+  .controller('EveningCtrl', function ($scope) {
   	
     // $scope.firstMakeupVideoId = '9OFpfTd0EIs';
     // $scope.firstHairVideoId = 'AR8D2yqgQ1U';

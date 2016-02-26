@@ -113,41 +113,9 @@ body {
   color: black;
 }
 
-.daytime-text {
-  font-weight: light;
-  margin-top: 50px;
-  font-size: 55px;
-  color: black;
-}
 
-.video-labels {
-  font-weight: light;
-  margin-top: 100px;
-  font-size: 35px;
-  border: 1px solid black;
-  margin: 15px;
-  padding: 10px;
-  color: black;
-  background: white;
-}
 
-#video-border {
-  border: 1px solid black;
-  padding: 1em;
-  margin: 1em;
-  height: 315px;
-  background: black;
-}
 
-#theme-button {
-  padding: 35px 85px;
-  border-radius: 0;
-  border: 1px solid black;
-  display: inline-block;
-  font-size: 35px;
-  color: white;
-  background: black;
-}
 
 .evening-text {
   font-weight: light;
@@ -245,15 +213,7 @@ body {
   color: black;
 }
 
-#hide-button {
-  padding: 35px 85px;
-  border-radius: 0;
-  border: 1px solid black;
-  display: inline-block;
-  font-size: 35px;
-  color: black;
-  background: white;
-}
+
 
 .main-title {
   font-weight: light;
@@ -270,6 +230,15 @@ body {
   font-size: 125px;
   color: white;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -524,30 +493,6 @@ hr .title {
   border-color: transparent;
 }
 
-
-
-.question-image {
-  background-image: url('../images/question.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  -moz-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  animation: fadeIn 5s;
-}
-
-.space-looks-question {
-  padding-top: 750px;
-}
-
-
 .question-title {
   font-size: 55px;
   color: black;
@@ -614,3 +559,114 @@ hr .title {
   border-radius: 0;
 }
 
+
+
+
+/* start daytime view */
+
+.daytime-text {
+  margin-top: 50px;
+  font-size: 40px;
+  color: black;
+}
+
+.work-image {
+  background-image: url('../images/tony.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.space-daytime {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .space-daytime {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .work-image {
+  background-image: url('../images/tony.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  }
+}
+
+.video-labels {
+  font-size: 17px;
+  margin: 15px;
+  padding: 10px;
+  color: white;
+  background: black;
+}
+
+#video-label-daytime {
+  padding: 10px 100px;
+  border-radius: 0;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 17px;
+  background: white;
+  color: black;
+}
+
+#video-border {
+  padding: 1em;
+  margin: 1em;
+  height: 267px;
+  background: black;
+}
+
+@media (min-width: 768px) {
+  #video-border {
+    padding: 1em;
+    margin: 1em;
+    height: 315px;
+    width: 420px;
+    background: black;
+  }
+}
+
+#theme-button {
+  padding: 10px 20px;
+  border-radius: 0;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 17px;
+  background: white;
+  color: black;
+}
+
+#hide-button {
+  padding: 10px 20px;
+  border-radius: 0;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 17px;
+  background: white;
+  color: black;
+}
+
+.work-look-title {
+  color: white;
+  font-size: 65px;
+}
+
+@media (min-width: 768px) {
+  .work-look-title {
+    color: white;
+    font-size: 70px;
+  }
+}

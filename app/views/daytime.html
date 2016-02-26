@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col-sm-12 text-center">
 			<p class="daytime-text">
-				daytime looks
+				DAYTIME
 			</p>
 		</div>
 	</div>
@@ -11,53 +11,84 @@
 <br>
 <br>
 <br>
-<div ng-show="themeOne" class="fadein fadeout">
-	<div class="row">
-	<div class="col-md-4 text-center">
-		<p class="video-labels">
-			makeup
-		</p>
-		<div class="embed-responsive embed-responsive-4by3" id="video-border">
-			<div ng-bind-html="firstMakeupVideo"></div> 
-		</div>
-	</div>
-	<div class="col-md-4 text-center">
-		<p class="video-labels">
-			hair
-		</p>
-		<div class="embed-responsive embed-responsive-4by3" id="video-border">
-			<!--<iframe width="420" height="315" src="https://www.youtube.com/embed/AR8D2yqgQ1U" frameborder="0" allowfullscreen></iframe> -->
-			<div ng-bind-html="firstHairVideo"></div> 
-		</div>
-	</div>
-	<div class="col-md-4 text-center">
-		<p class="video-labels">
-			outfit
-		</p>
-		<div class="embed-responsive embed-responsive-4by3" id="video-border">
-			<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZyGDiUnta4" frameborder="0" allowfullscreen></iframe>-->
-			<div ng-bind-html="firstOutfitVideo"></div> 
-		</div>
-	</div>
-</div>
-<br>
-<br>
-<div class="row">
+
+<div class="row work-image">
 	<div class="col-lg-12 text-center">
-		<a href ng-click="themeOne = !themeOne" class="btn btn-default" id="hide-button">hide look</a>
+		<div class="space-daytime">
+			<div ng-show="themeOne" class="fadein fadeout">
+				<div class="row">
+				<br>
+				<br>
+					<div class="col-md-4 text-center">
+						<p class="btn btn-default" id="video-label-daytime">
+							MAKEUP
+						</p>
+						<br>
+						<div class="embed-responsive embed-responsive-4by3" id="video-border">
+							<iframe width="420" height="315" src="https://www.youtube.com/embed/9OFpfTd0EIs" frameborder="0" allowfullscreen></iframe> 
+							<!--<div ng-bind-html="firstMakeupVideo"></div> -->
+						</div>
+					</div>
+					<div class="col-md-4 text-center">
+						<p class="btn btn-default" id="video-label-daytime">
+							HAIR
+						</p>
+						<br>
+						<div class="embed-responsive embed-responsive-4by3" id="video-border">
+							<iframe width="420" height="315" src="https://www.youtube.com/embed/AR8D2yqgQ1U" frameborder="0" allowfullscreen></iframe> 
+							<!--<div ng-bind-html="firstHairVideo"></div> -->
+						</div>
+					</div>
+					<div class="col-md-4 text-center">
+						<p class="btn btn-default" id="video-label-daytime">
+							OUTFIT
+						</p>
+						<br>
+						<div class="embed-responsive embed-responsive-4by3" id="video-border">
+							<iframe width="420" height="315" src="https://www.youtube.com/embed/ZZyGDiUnta4" frameborder="0" allowfullscreen></iframe>
+							<!-- <div ng-bind-html="firstOutfitVideo"></div> -->
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<a href ng-click="themeOne = !themeOne" class="btn btn-default" id="hide-button">HIDE</a>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-6">
+					<p class="work-look-title">
+						
+					</p>
+				</div>
+				<div class="col-md-6">
+					<p class="work-look-title">
+						Work<i>LOOK</i>
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<a href ng-click="themeOne = !themeOne" class="btn btn-default" id="theme-button"> VIEW</a>
+				</div>
+			</div>
+			<br>
+		</div>
 	</div>
 </div>
-<br>
-<br>
-</div>
+
+
+
+
 
 <br>
 <br>
-<div class="row">
-	<div class="col-lg-12 text-center">
-		<a href ng-click="themeOne = !themeOne" class="btn btn-default" id="theme-button"> work</a>
-	</div>
-</div>
+<br>
+<br>
+
 <br>
 <br>
 <br>
@@ -69,7 +100,7 @@
 			makeup
 		</p>
 		<div class="embed-responsive embed-responsive-4by3" id="video-border">
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/p3j2NYZ8FKs" frameborder="0" allowfullscreen></iframe>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/p3j2NYZ8FKs" frameborder="0" allowfullscreen></iframe> 
 			<!--<div ng-bind-html="secondMakeupVideo"></div> -->
 		</div>
 	</div>
@@ -78,8 +109,8 @@
 			hair
 		</p>
 		<div class="embed-responsive embed-responsive-4by3" id="video-border">
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/zpOULjyy-n8" frameborder="0" allowfullscreen></iframe>
-			<!--<div ng-bind-html="secondHairVideo"></div> -->
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/zpOULjyy-n8" frameborder="0" allowfullscreen></iframe> 
+			<!-- <div ng-bind-html="secondHairVideo"></div> -->
 		</div>
 	</div>
 	<div class="col-md-4 text-center">
@@ -87,7 +118,7 @@
 			outfit
 		</p>
 		<div class="embed-responsive embed-responsive-4by3" id="video-border">
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/J9gKyRmic20" frameborder="0" allowfullscreen></iframe>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/J9gKyRmic20" frameborder="0" allowfullscreen></iframe> 
 			<!--<div ng-bind-html="secondOutfitVideo"></div> -->
 		</div>
 	</div>
