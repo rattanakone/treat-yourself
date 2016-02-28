@@ -621,7 +621,7 @@ hr .title {
 
 .daytime-text {
   margin-top: 50px;
-  font-size: 50px;
+  font-size: 35px;
   color: black;
 }
 
@@ -694,84 +694,125 @@ hr .title {
   opacity: 1;
 }
 
+.errands-image {
+  background-image: url('../images/errands.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.errands-image:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
 .work-look-title {
   color: white;
-  font-size: 65px;
+  font-size: 30px;
 }
 
 .cafe-look-title {
   color: white;
-  font-size: 65px;
+  font-size: 30px;
 }
 
 .lunch-look-title {
   color: white;
-  font-size: 65px;
+  font-size: 30px;
 }
 
 .date-look-title {
   color: white;
-  font-size: 65px;
+  font-size: 30px;
+}
+
+.errands-look-title {
+  color: white;
+  font-size: 30px;
 }
 
 @media (min-width: 768px) {
+  .daytime-text {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
   .work-look-title {
     color: white;
-    font-size: 70px;
+    font-size: 45px;
   }
   .cafe-look-title {
     color: white;
-    font-size: 70px;
+    font-size: 45px;
   }
   .lunch-look-title {
     color: white;
-    font-size: 70px;
+    font-size: 45px;
   }
   .date-look-title {
     color: white;
-    font-size: 70px;
+    font-size: 45px;
+  }
+
+  .errands-look-title {
+    color: white;
+    font-size: 45px;
   }
 }
 
 .space-work {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .space-cafe {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .space-lunch {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .space-date {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.space-errands {
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 @media (min-width: 768px) {
   .space-work {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 85px;
+    padding-bottom: 50px;
   }
 
   .space-cafe {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 85px;
+    padding-bottom: 50px;
   }
 
   .space-lunch {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 85px;
+    padding-bottom: 50px;
   }
 
   .space-date {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 85px;
+    padding-bottom: 50px;
+  }
+
+  .space-errands {
+    padding-top: 85px;
+    padding-bottom: 50px;
   }
 
   .work-image {
@@ -838,6 +879,22 @@ hr .title {
     opacity: 1;
   }
 
+  .errands-image {
+    background-image: url('../images/errands.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+.errands-image:hover .view-button {
+    visibility: visible;
+    opacity: 1;
+  }
+
   .view-button {
     visibility: hidden;
     opacity: 0;
@@ -861,10 +918,23 @@ hr .title {
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 30px;
+  font-size: 20px;
   background: rgba(0,0,0,0.1);
   color: white;
 }
+
+@media (min-width: 768px) {
+  #video-label-daytime {
+    padding: 5px 20px;
+    border-radius: 0;
+    border-color: transparent;
+    display: inline-block;
+    font-size: 25px;
+    background: rgba(0,0,0,0.1);
+    color: white;
+  }
+}
+
 
 #video-border {
   padding: 1em;
@@ -883,24 +953,47 @@ hr .title {
 }
 
 #theme-button {
-  padding: 5px 30px;
+  padding: 5px 15px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 15px;
+  font-size: 12px;
   background: rgba(255,255,255,0.8);
   color: black;
 }
 
 #hide-button {
-  padding: 5px 30px;
+  padding: 5px 15px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 15px;
+  font-size: 12px;
   background: rgba(255,255,255,0.8);
   color: black;
 }
+
+@media (min-width: 768px) {
+  #theme-button {
+    padding: 5px 30px;
+    border-radius: 0;
+    border-color: transparent;
+    display: inline-block;
+    font-size: 13px;
+    background: rgba(255,255,255,0.8);
+    color: black;
+  }
+  #hide-button {
+    padding: 5px 30px;
+    border-radius: 0;
+    border-color: transparent;
+    display: inline-block;
+    font-size: 13px;
+    background: rgba(255,255,255,0.8);
+    color: black;
+  }
+}
+
+
 
 #theme-button:hover {
   color: white;
