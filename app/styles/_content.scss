@@ -621,8 +621,13 @@ hr .title {
 
 .daytime-text {
   margin-top: 50px;
-  font-size: 40px;
+  font-size: 50px;
   color: black;
+}
+
+.view-button {
+  visibility: hidden;
+  opacity: 0;
 }
 
 .work-image {
@@ -641,24 +646,8 @@ hr .title {
   opacity: 1;
 }
 
-.view-button {
-  visibility: hidden;
-  opacity: 0;
-}
-
-.space-daytime {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-@media (min-width: 768px) {
-  .space-daytime {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .work-image {
-  background-image: url('../images/tony.png');
+.cafe-image {
+  background-image: url('../images/cafe.png');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -666,18 +655,198 @@ hr .title {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.cafe-image:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lunch-image {
+  background-image: url('../images/lunch.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.lunch-image:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.date-image {
+  background-image: url('../images/date.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.date-image:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.work-look-title {
+  color: white;
+  font-size: 65px;
+}
+
+.cafe-look-title {
+  color: white;
+  font-size: 65px;
+}
+
+.lunch-look-title {
+  color: white;
+  font-size: 65px;
+}
+
+.date-look-title {
+  color: white;
+  font-size: 65px;
+}
+
+@media (min-width: 768px) {
+  .work-look-title {
+    color: white;
+    font-size: 70px;
+  }
+  .cafe-look-title {
+    color: white;
+    font-size: 70px;
+  }
+  .lunch-look-title {
+    color: white;
+    font-size: 70px;
+  }
+  .date-look-title {
+    color: white;
+    font-size: 70px;
+  }
+}
+
+.space-work {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.space-cafe {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.space-lunch {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.space-date {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .space-work {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .space-cafe {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .space-lunch {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .space-date {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .work-image {
+    background-image: url('../images/tony.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
   }
 
   .work-image:hover .view-button {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .cafe-image {
+    background-image: url('../images/cafe.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .cafe-image:hover .view-button {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .lunch-image {
+    background-image: url('../images/lunch.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .lunch-image:hover .view-button {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .date-image {
+    background-image: url('../images/date.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .date-image:hover .view-button {
+    visibility: visible;
+    opacity: 1;
   }
 
   .view-button {
-  visibility: hidden;
-  opacity: 0;
+    visibility: hidden;
+    opacity: 0;
   }
 }
+
+
+
+
 
 .video-labels {
   font-size: 17px;
@@ -745,16 +914,7 @@ hr .title {
   border-color: transparent;
 }
 
-.work-look-title {
-  color: white;
-  font-size: 65px;
-}
 
-@media (min-width: 768px) {
-  .work-look-title {
-    color: white;
-    font-size: 70px;
-  }
-}
+
 
 
