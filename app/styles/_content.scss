@@ -1276,27 +1276,87 @@ hr .title {
 
 /* start guru view */
 
+.michelle-image-one {
+  background-image: url('https://i.ytimg.com/vi/Sr0wZi5b2Zs/maxresdefault.jpg');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.space-michelle-image-one {
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+
+.space-michelle-image-two {
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+.michelle-image-two {
+  background-image: url('https://i.ytimg.com/vi/5inY_TBBYoA/maxresdefault.jpg');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.space-michelle-name {
+  padding-top: 350px;
+  padding-bottom: 350px;
+}
+
+.space-michelle-guru {
+  padding-top: 350px;
+  
+}
+
 
 .guru-text {
   margin-top: 25px;
-  font-size: 35px;
+  font-size: 40px;
   color: black;
 }
 
-.guru-two-text {
-  font-size: 55px;
+.guru-name {
+  font-size: 45px;
   color: black;
   letter-spacing: 1px;
 }
 
-#website-button {
-  padding: 15px 85px;
-  border-radius: 0;
-  border: 1px solid black;
-  display: inline-block;
-  font-size: 35px;
+.michelle-website-name {
+  color: black;
+}
+
+.michelle-website-name:link {
+  text-decoration: none;
+}
+
+.michelle-website-name:hover {
+  padding: 5px 50px;
   color: white;
-  background: black;
+  background: rgba(0,0,0,0.4);
+}
+
+#website-button {
+  padding: 5px 50px;
+  border-radius: 0;
+  border: transparent;
+  display: inline-block;
+  font-size: 30px;
+  color: black;
+  background: transparent;
+}
+
+#website-button:hover {
+  color: white;
+  background: rgba(0,0,0,0.4);
 }
 
 .bg-black {

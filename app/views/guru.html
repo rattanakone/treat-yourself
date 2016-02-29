@@ -1,85 +1,48 @@
-<!-- Add your site or application content here -->
-    <div class="header">
-      <div class="navbar navbar-default" id="looks-nav" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-
-            <button type="button" class="navbar-toggle collapsed" id="looks-icon" data-toggle="collapse" data-target="#js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-
-      
-          </div>
-
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
-
-            <ul class="nav navbar-nav nav-justified">
-              <li><a href="/treat-yourself/#/" class="btn btn-default btn-lg" id="link-button">home</a></li>
-              <li><a ng-href="/treat-yourself/#/looks" class="btn btn-default btn-lg" id="link-button">lookbooks</a></li>
-              <li><a ng-href="/treat-yourself/#/guru" class="btn btn-default btn-lg" id="link-button">beauty guru</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+<div class="row">
+<a href="https://www.youtube.com/watch?v=Sr0wZi5b2Zs" target="_blank">
+  <div class="col-sm-6 col-md-6 col-lg-6text-center michelle-image-one">
+    <div class="space-michelle-image-one"></div>
+  </div>
+</a>
+  <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+    <div class="space-michelle-name">
+      <p class="guru-name">
+        <a href="http://michellephan.com/" class="michelle-website-name">MICHELLE PHAN</a>
+      </p>
     </div>
+  </div>
+</div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12 text-center">
+<div class="row">
+  <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+    <div class="space-michelle-guru">
       <p class="guru-text">
-        my favorite beauty guru:
+        My Favorite Beauty<i>GURU</i>
       </p>
+      <br>
+      <a href="http://michellephan.com/" class="btn btn-default btn-lg" id="website-button" target="_blank">michellephan.com</a>
     </div>
   </div>
-</div>
-<br>
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12 text-center">
-      <p class="guru-two-text">
-        Michelle Phan
-      </p>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/u_za2Me-jQE?autoplay=1&loop=1&showinfo=0&list=PLATkQeyUmMO3ZxlvxJRYWlTIpL2tUidd3" frameborder="0" allowfullscreen></iframe>
-      </div>
+<a href="https://www.youtube.com/watch?v=5inY_TBBYoA" target="_blank">
+  <div class="col-sm-6 col-md-6 col-lg-6 text-center michelle-image-two">
+    <div class="space-michelle-image-two">
+      
     </div>
   </div>
+</a>
 </div>
-<br>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-      <a href="http://michellephan.com/" class="btn btn-default btn-lg" id="website-button" target="_blank">Michelle's website</a>
-    </div>
-  </div>
-  <br>
-  <br>
-
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <section class="bg-black">
   <div ng-controller="GuruCtrl">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <p class="search-text">
-          discover more of Michelle's videos
+          discover more of her videos
         </p>
         </div>
         <div class="col-lg-12 text-center">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="search for keywords" id="search-box-colors" name="keywords" ng-model="keywords">
+            <input type="text" class="form-control" placeholder="search for keywords" id="search-box-colors" name="keywords" ng-model="keywords" >
               <span class="input-group-btn">
                 <button class="btn btn-default" id="search-button-colors" type="button" ng-click="refreshButton()"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
               </span>
