@@ -19,8 +19,7 @@
       <p class="guru-text">
         My Favorite Beauty<i>GURU</i>
       </p>
-      <br>
-      <a href="http://michellephan.com/" class="btn btn-default btn-lg" id="website-button" target="_blank">michellephan.com</a>
+      
     </div>
   </div>
 <a href="https://www.youtube.com/watch?v=5inY_TBBYoA" target="_blank">
@@ -31,30 +30,45 @@
   </div>
 </a>
 </div>
+
+<div class="row">
+<a href="https://www.youtube.com/watch?v=wgJrQ4De094" target="_blank">
+  <div class="col-sm-6 col-md-6 col-lg-6text-center michelle-image-three">
+    <div class="space-michelle-image-three"></div>
+  </div>
+</a>
+  <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+    <div class="space-michelle-name">
+      <p class="guru-name">
+        <a href="http://michellephan.com/" class="btn btn-default btn-lg" id="website-button" target="_blank">michellephan.com</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
 <section class="bg-black">
   <div ng-controller="GuruCtrl">
-    <div class="container">
+    
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <p class="search-text">
-          discover more of her videos
+        <div class="col-lg-12">
+          <p class="search-text text-center">
+          Michelle's Beauty Videos
         </p>
         </div>
-        <div class="col-lg-12 text-center">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="search for keywords" id="search-box-colors" name="keywords" ng-model="keywords" >
-              <span class="input-group-btn">
-                <button class="btn btn-default" id="search-button-colors" type="button" ng-click="refreshButton()"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-              </span>
-          </div><!-- /input-group -->
-        </div><!-- /.col-lg-6 -->
+        <div class="container">
+          <div class="col-lg-12" align="right">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="search for keywords" id="search-box-colors" name="keywords" ng-model="keywords" >
+                <span class="input-group-btn">
+                  <button class="btn btn-default" id="search-button-colors" type="button" ng-click="refreshButton()"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </span>
+            </div><!-- /input-group -->
+          </div><!-- /.col-lg-6 -->
       </div>
-    </div>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
+
     <div class="row">
       <div class="col-sm-4 col-md-4 col-lg-4 text-center" id="no-link">
           <a ng-href="https://www.youtube.com/embed/{{video.items[0].id.videoId}}" target="_blank">
@@ -94,8 +108,8 @@
   
 <br>
 <br>
-
 </section>
+
 
 
 

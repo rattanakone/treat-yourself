@@ -1296,6 +1296,7 @@ hr .title {
   padding-top: 400px;
   padding-bottom: 400px;
 }
+
 .michelle-image-two {
   background-image: url('https://i.ytimg.com/vi/5inY_TBBYoA/maxresdefault.jpg');
   background-repeat: none;
@@ -1307,6 +1308,46 @@ hr .title {
   -o-background-size: cover;
 }
 
+
+
+.space-michelle-image-three {
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+
+.michelle-image-three {
+  
+  background-image: url('https://i.ytimg.com/vi/wgJrQ4De094/maxresdefault.jpg');
+  background-repeat: none;
+  background-attachment: scroll;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.space-michelle-image-four {
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.michelle-image-five {
+  background-image: url('https://i.ytimg.com/vi/h9wEBWZXplQ/maxresdefault.jpg');
+  background-repeat: none;
+  background-attachment: scroll;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.space-michelle-image-five {
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
 .space-michelle-name {
   padding-top: 350px;
   padding-bottom: 350px;
@@ -1315,6 +1356,13 @@ hr .title {
 .space-michelle-guru {
   padding-top: 350px;
   
+}
+
+.bg-light-gray {
+  background: #f7f7f7;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 
@@ -1349,7 +1397,7 @@ hr .title {
   border-radius: 0;
   border: transparent;
   display: inline-block;
-  font-size: 30px;
+  font-size: 55px;
   color: black;
   background: transparent;
 }
@@ -1364,10 +1412,9 @@ hr .title {
 }
 
 .search-text {
-  font-weight: light;
-  margin-top: 150px;
+  margin-top: 250px;
   margin-bottom: 50px;
-  font-size: 48px;
+  font-size: 45px;
   color: white;
 }
 
