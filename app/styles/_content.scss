@@ -267,11 +267,11 @@ body {
 
 .intro-text {
   font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-  padding-top: 370px;
-  padding-bottom: 350px;
+  padding-top: 210px;
+  padding-bottom: 300px;
 }
 .intro-text .intro-lead-in {
-  font-size: 40px;
+  font-size: 39px;
   -moz-animation: fadeIn 9s;
   -ms-animation: fadeIn 9s;
   -o-animation: fadeIn 9s;
@@ -279,7 +279,7 @@ body {
   animation: fadeIn 9s;
 }
 .bottom-main-title {
-  font-size: 17px;
+  font-size: 14px;
 }
 
 hr .title {
@@ -326,11 +326,11 @@ hr .title {
 }
 
 .start-button {
-  padding: 15px 50px;
+  padding: 5px 25px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 20px;
+  font-size: 13px;
   background: rgba(255,255,255,0.8);
   color: black;
   -moz-animation: fadeIn 25s;
@@ -338,6 +338,24 @@ hr .title {
   -o-animation: fadeIn 25s;
   -webkit-animation: fadeIn 25s;
   animation: fadeIn 25s;
+}
+
+@media (min-width: 768px) {
+  .start-button {
+    padding: 10px 45px;
+    border-radius: 0;
+    border-color: transparent;
+    display: inline-block;
+    font-size: 20px;
+    background: rgba(255,255,255,0.8);
+    color: black;
+    -moz-animation: fadeIn 25s;
+    -ms-animation: fadeIn 25s;
+    -o-animation: fadeIn 25s;
+    -webkit-animation: fadeIn 25s;
+    animation: fadeIn 25s;
+  }
+  
 }
 
 .start-button:hover {
@@ -423,7 +441,7 @@ hr .title {
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
   color: white;
-  border-bottom: 15px solid white;
+  
 }
 
 .evening-looks {
@@ -442,8 +460,7 @@ hr .title {
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
   color: white;
-  border-bottom: 15px solid white;
-  border-left: 15px solid white;
+ 
 }
 
 .mix-looks {
@@ -462,8 +479,7 @@ hr .title {
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
   color: white;
-  border-bottom: 15px solid white;
-  border-left: 15px solid white;
+  
 }
 
 
@@ -473,30 +489,60 @@ hr .title {
 }
 
 .lookbook-title {
-  font-size: 40px;
+  font-size: 35px;
   color: black;
 }
 
+@media (min-width: 768px) {
+  .lookbook-title {
+    font-size: 45px;
+    color: black;
+  }
+}
+
 .lookbook-buttons {
-  padding: 5px 20px;
+  padding: 3px 13px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 15px;
+  font-size: 12px;
   background: rgba(255,255,255,0.8);
   color: black;
   margin-left: 115px;
 }
 
 .mix-lookbook-button {
-  padding: 5px 20px;
+  padding: 3px 13px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 15px;
+  font-size: 12px;
   background: rgba(255,255,255,0.8);
   color: black;
   margin-left: 120px;
+}
+
+@media (min-width: 768px) {
+  .lookbook-buttons {
+    padding: 3px 13px;
+    border-radius: 0;
+    border-color: transparent;
+    display: inline-block;
+    font-size: 13px;
+    background: rgba(255,255,255,0.8);
+    color: black;
+    margin-left: 115px;
+  }
+  .mix-lookbook-button {
+    padding: 3px 13px;
+    border-radius: 0;
+    border-color: transparent;
+    display: inline-block;
+    font-size: 13px;
+    background: rgba(255,255,255,0.8);
+    color: black;
+    margin-left: 120px;
+  }
 }
 
 .lookbook-buttons:hover {
@@ -512,28 +558,57 @@ hr .title {
 }
 
 .question-title {
-  font-size: 45px;
+  font-size: 25px;
   color: black;
   padding-top: 5px;
   padding-bottom: 50px;
 }
 
+@media (min-width: 768px) {
+  .question-title {
+    font-size: 35px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 50px;
+  }
+}
+
 .daytime-logo {
   margin-left: 120px;
-  font-size: 35px;
+  font-size: 25px;
   padding-bottom: 5px;
 }
 
 .evening-logo {
   margin-left: 120px;
-  font-size: 35px;
+  font-size: 25px;
   padding-bottom: 5px;
 }
 
 .mix-logo {
   margin-left: 120px;
-  font-size: 35px;
+  font-size: 25px;
   padding-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .daytime-logo {
+    margin-left: 120px;
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+
+.evening-logo {
+    margin-left: 120px;
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+
+.mix-logo {
+    margin-left: 120px;
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
 }
 
 .daytime-looks:hover .view-looks-button {
@@ -939,7 +1014,7 @@ hr .title {
 #video-border {
   padding: 1em;
   margin: 1em;
-  height: 267px;
+  height: 268px;
   background: black;
 }
 
@@ -947,13 +1022,13 @@ hr .title {
   #video-border {
     padding: 1em;
     margin: 1em;
-    height: 320px;
+    height: 322px;
     background: black;
   }
 }
 
 #theme-button {
-  padding: 5px 15px;
+  padding: 3px 13px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
@@ -963,7 +1038,7 @@ hr .title {
 }
 
 #hide-button {
-  padding: 5px 15px;
+  padding: 3px 13px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
@@ -974,7 +1049,7 @@ hr .title {
 
 @media (min-width: 768px) {
   #theme-button {
-    padding: 5px 30px;
+    padding: 3px 13px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
@@ -983,7 +1058,7 @@ hr .title {
     color: black;
   }
   #hide-button {
-    padding: 5px 30px;
+    padding: 3px 13px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
@@ -1006,6 +1081,314 @@ hr .title {
   background: rgba(0,0,0,0.4);
   border-color: transparent;
 }
+
+
+
+/* start evening view */
+
+.evening-text {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
+
+.dinner-image {
+  background-image: url('../images/dinner.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.dinner-image:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.clubbing-image {
+  background-image: url('../images/clubbing.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.clubbing-image:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.date-night-image {
+  background-image: url('../images/datenight.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.date-night-image:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.ladies-night-image {
+  background-image: url('../images/ladiesnight.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.ladies-night-image:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.parties-image {
+  background-image: url('../images/parties.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.parties-image:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dinner-look-title {
+  color: white;
+  font-size: 30px;
+}
+
+.clubbing-look-title {
+  color: white;
+  font-size: 30px;
+}
+
+.date-night-look-title {
+  color: white;
+  font-size: 30px;
+}
+
+.ladies-night-look-title {
+  color: white;
+  font-size: 30px;
+}
+
+.parties-look-title {
+  color: white;
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .evening-text {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
+  .dinner-look-title {
+    color: white;
+    font-size: 45px;
+  }
+  .clubbing-look-title {
+    color: white;
+    font-size: 45px;
+  }
+  .date-night-look-title {
+    color: white;
+    font-size: 45px;
+  }
+  .ladies-night-look-title {
+    color: white;
+    font-size: 45px;
+  }
+  .parties-look-title {
+    color: white;
+    font-size: 45px;
+  }
+}
+
+.space-dinner {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.space-clubbing {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.space-date-night {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.space-ladies-night {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.space-parties {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .space-dinner {
+    padding-top: 85px;
+    padding-bottom: 50px;
+  }
+
+  .space-clubbing {
+    padding-top: 85px;
+    padding-bottom: 50px;
+  }
+
+  .space-date-night {
+    padding-top: 85px;
+    padding-bottom: 50px;
+  }
+
+  .space-ladies-night {
+    padding-top: 85px;
+    padding-bottom: 50px;
+  }
+
+  .space-parties {
+    padding-top: 85px;
+    padding-bottom: 50px;
+  }
+
+  .dinner-image {
+    background-image: url('../images/dinner.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .dinner-image:hover .view-button {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .clubbing-image {
+    background-image: url('../images/clubbing.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .clubbing-image:hover .view-button {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .date-night-image {
+    background-image: url('../images/datenight.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .date-night-image:hover .view-button {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .ladies-night-image {
+    background-image: url('../images/ladiesnight.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .ladies-night-image:hover .view-button {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .parties-image {
+    background-image: url('../images/parties.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+.parties-image:hover .view-button {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+#video-label-evening {
+  padding: 5px 20px;
+  border-radius: 0;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 20px;
+  background: rgba(0,0,0,0.1);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #video-label-evening {
+    padding: 5px 20px;
+    border-radius: 0;
+    border-color: transparent;
+    display: inline-block;
+    font-size: 25px;
+    background: rgba(0,0,0,0.1);
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
