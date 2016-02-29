@@ -7,241 +7,6 @@ body {
   font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 }
 
-
-
-
-
-.space-box {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-
-#main-button {
-  padding: 15px 30px;
-  border-radius: 0;
-  border: 1px solid black;
-  display: inline-block;
-  font-size: 35px;
-  color: black;
-  background: white;
-}
-
-.main-image {
-  background-attachment: scroll;
-  background-image: url("../images/main.png");
-  background-position: center center;
-  background-repeat: none;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  -moz-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  animation: fadeIn 5s;
-}
-
-.space-box-two {
-  padding: 400px;
-}
-
-.space-box-three {
-  padding: 30px;
-}
-
-.space-box-four {
-  padding: 50px;
-}
-
-.question {
-  font-weight: light;
-  margin-top: 50px;
-  font-size: 55px;
-  color: black;
-}
-
-.text-muted {
-  font-size: 25px;
-  color: #7F7F7F;
-}
-
-.daytime-image {
-  background-attachment: scroll;
-  background-image: url("../images/placeholderimage.jpg");
-  background-position: center center;
-  background-repeat: none;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.evening-image {
-  background-attachment: scroll;
-  background-image: url("../images/placeholderimage.jpg");
-  background-position: center center;
-  background-repeat: none;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.mixup-image {
-  background-attachment: scroll;
-  background-image: url("../images/placeholderimage.jpg");
-  background-position: center center;
-  background-repeat: none;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-#looks-button {
-  margin-top: 180px;
-  margin-left: 120px;
-  padding: 25px 30px;
-  border-radius: 0;
-  border: 1px solid black;
-  display: inline-block;
-  font-size: 35px;
-  background: transparent;
-  color: black;
-}
-
-
-
-
-
-.evening-text {
-  font-weight: light;
-  margin-top: 100px;
-  font-size: 55px;
-  color: black;
-}
-
-.mix-text {
-  font-weight: light;
-  margin-top: 30px;
-  font-size: 55px;
-  color: black;
-}
-
-.guru-text {
-  font-weight: light;
-  margin-top: 70px;
-  font-size: 55px;
-  color: black;
-}
-
-.guru-two-text {
-  font-weight: light;
-  font-size: 60px;
-  color: black;
-  letter-spacing: 1px;
-}
-
-#website-button {
-  padding: 15px 85px;
-  border-radius: 0;
-  border: 1px solid black;
-  display: inline-block;
-  font-size: 35px;
-  color: white;
-  background: black;
-}
-
-.bg-black {
-  background-color: black;
-}
-
-.search-text {
-  font-weight: light;
-  margin-top: 150px;
-  margin-bottom: 50px;
-  font-size: 48px;
-  color: white;
-}
-
-#search-box-colors {
-  color: black;
-  font-size: 18px;
-  border: 1px solid black; 
-}
-
-.form-control::-webkit-input-placeholder { 
-  color: black;
-  font-size: 18px; 
-}
-.form-control:-moz-placeholder { 
-  color: black;
-  font-size: 18px;  
-}
-.form-control::-moz-placeholder { 
-  color: black;
-  font-size: 18px;  
-}
-.form-control:-ms-input-placeholder { 
-  color: black;
-  font-size: 18px;  
-}
-
-#search-button-colors {
-  background: white;
-  border: 1px solid black;
-}
-
-.title-font {
-  color: white;
-  font-size: 35px;
-}
-
-#no-link a {
-  text-decoration: none;
-}
-
-#shuffle-button {
-  padding: 15px;
-  border-radius: 0;
-  border: 1px solid black;
-  display: inline-block;
-  font-size: 35px;
-  color: black;
-}
-
-
-
-.main-title {
-  font-weight: light;
-  font-size: 60px;
-  color: black;
-  margin-top: 200px;
-}
-
-#main-border {
-  border-top: 1px solid black;
-}
-
-.question-mark {
-  font-size: 125px;
-  color: white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 /* start main view */
 
 
@@ -976,18 +741,6 @@ hr .title {
   }
 }
 
-
-
-
-
-.video-labels {
-  font-size: 17px;
-  margin: 15px;
-  padding: 10px;
-  color: white;
-  background: black;
-}
-
 #video-label-daytime {
   padding: 5px 20px;
   border-radius: 0;
@@ -1011,7 +764,7 @@ hr .title {
 }
 
 
-#video-border {
+#video-border-day-evening {
   padding: 1em;
   margin: 1em;
   height: 268px;
@@ -1019,7 +772,7 @@ hr .title {
 }
 
 @media (min-width: 768px) {
-  #video-border {
+  #video-border-day-evening {
     padding: 1em;
     margin: 1em;
     height: 322px;
@@ -1380,17 +1133,219 @@ hr .title {
 }
 
 
+/* start mix view */
+
+.mix-text {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .mix-text {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
+}
+
+#video-label-mix {
+  padding: 5px 20px;
+  border-radius: 0;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 20px;
+  
+  color: black;
+}
+
+@media (min-width: 768px) {
+  #video-label-mix {
+    padding: 5px 20px;
+    border-radius: 0;
+    border-color: transparent;
+    display: inline-block;
+    font-size: 35px;
+    background: transparent;
+    color: white;
+  }
+}
+
+#video-label-mix:hover {
+  background: transparent;
+  border-color: transparent;
+}
+
+#shuffle-button {
+  padding: 3px 13px;
+  border-radius: 0;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 12px;
+  background: rgba(255,255,255,0.8);
+  color: black;
+}
+
+@media (min-width: 768px) {
+  #shuffle-button {
+    padding: 3px 30px;
+    border-radius: 0;
+    border-color: transparent;
+    display: inline-block;
+    font-size: 15px;
+    background: rgba(255,255,255,0.8);
+    color: black;
+  }
+}
+
+#shuffle-button:hover {
+  color: white;
+  background: rgba(0,0,0,0.4);
+  border-color: transparent;
+}
+
+.question-mark {
+  font-size: 125px;
+  color: white;
+}
+
+#video-border-mix {
+  padding: 1em;
+  margin: 1em;
+  height: 202px;
+  border: 2px solid white;
+}
+
+@media (min-width: 768px) {
+  #video-border-mix {
+    padding: 1em;
+    margin: 1em;
+    height: 243px;
+    border: 2px solid white;
+  }
+}
+
+.makeup-image {
+  background-image: url('../images/makeup.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.space-makeup {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hair-image {
+  background-image: url('../images/hair.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.space-hair {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.outfit-image {
+  background-image: url('../images/outfit.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.space-outfit {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 
+/* start guru view */
 
 
+.guru-text {
+  margin-top: 25px;
+  font-size: 35px;
+  color: black;
+}
 
+.guru-two-text {
+  font-size: 55px;
+  color: black;
+  letter-spacing: 1px;
+}
 
+#website-button {
+  padding: 15px 85px;
+  border-radius: 0;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 35px;
+  color: white;
+  background: black;
+}
 
+.bg-black {
+  background-color: black;
+}
 
+.search-text {
+  font-weight: light;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 48px;
+  color: white;
+}
 
+#search-box-colors {
+  color: black;
+  font-size: 18px;
+  border: 1px solid black; 
+}
 
+.form-control::-webkit-input-placeholder { 
+  color: black;
+  font-size: 18px; 
+}
+.form-control:-moz-placeholder { 
+  color: black;
+  font-size: 18px;  
+}
+.form-control::-moz-placeholder { 
+  color: black;
+  font-size: 18px;  
+}
+.form-control:-ms-input-placeholder { 
+  color: black;
+  font-size: 18px;  
+}
 
+#search-button-colors {
+  background: white;
+  border: 1px solid black;
+}
 
+.title-font {
+  color: white;
+  font-size: 35px;
+}
+
+#no-link a {
+  text-decoration: none;
+}
 
 
