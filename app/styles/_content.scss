@@ -7,6 +7,73 @@ body {
   font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 }
 
+/* BACKGROUND TRANSITIONS */
+/* Fade */
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #2098d1;
+  color: white;
+}
+
+
+/* Back Pulse */
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+
+.hvr-back-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #2098d1;
+  background-color: #2098d1;
+  color: white;
+}
+
 /* start main view */
 
 
@@ -1418,13 +1485,8 @@ hr .title {
 }
 
 .space-michelle-image-one {
-  padding-top: 400px;
-  padding-bottom: 400px;
-}
-
-.space-michelle-image-two {
-  padding-top: 400px;
-  padding-bottom: 400px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .michelle-image-two {
@@ -1443,19 +1505,16 @@ hr .title {
   animation: fadeIn 5s;
 }
 
-
-
-.space-michelle-image-three {
-  padding-top: 400px;
-  padding-bottom: 400px;
+.space-michelle-image-two {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .michelle-image-three {
-  
-  background-image: url('https://i.ytimg.com/vi/wgJrQ4De094/maxresdefault.jpg');
+  background-image: url('https://i.ytimg.com/vi/DBTd9qv_sJI/maxresdefault.jpg');
   background-repeat: none;
   background-attachment: scroll;
-  
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -1467,35 +1526,17 @@ hr .title {
   animation: fadeIn 5s;
 }
 
-.space-michelle-image-four {
-  padding-top: 300px;
-  padding-bottom: 300px;
-}
-
-.michelle-image-five {
-  background-image: url('https://i.ytimg.com/vi/h9wEBWZXplQ/maxresdefault.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.space-michelle-image-five {
-  padding-top: 300px;
-  padding-bottom: 300px;
+.space-michelle-image-three {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .space-michelle-name {
-  padding-top: 350px;
-  padding-bottom: 350px;
+  padding-top: 130px;
 }
 
 .space-michelle-guru {
-  padding-top: 350px;
-  
+  padding-top: 130px;
 }
 
 .bg-light-gray {
@@ -1505,15 +1546,14 @@ hr .title {
   padding-bottom: 100px;
 }
 
-
 .guru-text {
-  margin-top: 25px;
-  font-size: 40px;
+  font-size: 17px;
   color: black;
+  letter-spacing: 1px;
 }
 
 .guru-name {
-  font-size: 45px;
+  font-size: 17px;
   color: black;
   letter-spacing: 1px;
 }
@@ -1527,17 +1567,17 @@ hr .title {
 }
 
 .michelle-website-name:hover {
-  padding: 5px 50px;
+  padding: 5px 10px;
   color: white;
   background: rgba(0,0,0,0.4);
 }
 
 #website-button {
-  padding: 5px 50px;
+  padding: 5px 20px;
   border-radius: 0;
   border: transparent;
   display: inline-block;
-  font-size: 55px;
+  font-size: 17px;
   color: black;
   background: transparent;
 }
@@ -1552,33 +1592,33 @@ hr .title {
 }
 
 .search-text {
-  margin-top: 250px;
-  margin-bottom: 50px;
-  font-size: 45px;
+  margin-top: 150px;
+  margin-bottom: 40px;
+  font-size: 25px;
   color: white;
 }
 
 #search-box-colors {
   color: black;
-  font-size: 18px;
+  font-size: 14px;
   border: 1px solid black; 
 }
 
 .form-control::-webkit-input-placeholder { 
   color: black;
-  font-size: 18px; 
+  font-size: 14px; 
 }
 .form-control:-moz-placeholder { 
   color: black;
-  font-size: 18px;  
+  font-size: 14px;  
 }
 .form-control::-moz-placeholder { 
   color: black;
-  font-size: 18px;  
+  font-size: 14px;  
 }
 .form-control:-ms-input-placeholder { 
   color: black;
-  font-size: 18px;  
+  font-size: 14px;  
 }
 
 #search-button-colors {
@@ -1588,11 +1628,168 @@ hr .title {
 
 .title-font {
   color: white;
-  font-size: 35px;
+  font-size: 14px;
 }
 
 #no-link a {
   text-decoration: none;
 }
+
+
+@media (min-width: 1050px) {
+  .michelle-image-one {
+    background-image: url('https://i.ytimg.com/vi/Sr0wZi5b2Zs/maxresdefault.jpg');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+  }
+
+  .space-michelle-image-one {
+    padding-top: 400px;
+    padding-bottom: 400px;
+  }
+
+  .space-michelle-name {
+    padding-top: 350px;
+    padding-bottom: 300px;
+  }
+
+  .guru-name {
+    font-size: 45px;
+    color: black;
+    letter-spacing: 1px;
+  }
+
+  .michelle-website-name {
+    color: black;
+  }
+
+  .guru-name {
+    font-size: 45px;
+    color: black;
+    letter-spacing: 1px;
+  }
+
+  .space-michelle-guru {
+    padding-top: 350px;
+  }
+
+  .guru-text {
+    margin-top: 25px;
+    font-size: 40px;
+    color: black;
+  }
+
+  .michelle-image-two {
+    background-image: url('https://i.ytimg.com/vi/5inY_TBBYoA/maxresdefault.jpg');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+  }
+
+  .space-michelle-image-two {
+    padding-top: 400px;
+    padding-bottom: 400px;
+  }
+
+  .michelle-image-three {
+    background-image: url('https://i.ytimg.com/vi/DBTd9qv_sJI/maxresdefault.jpg');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+  }
+
+  .space-michelle-image-three {
+    padding-top: 400px;
+    padding-bottom: 400px;
+  }
+
+  .michelle-website-name:hover {
+    padding: 5px 20px;
+    color: white;
+    background: rgba(0,0,0,0.4);
+  }
+
+  #website-button {
+    padding: 5px 10px;
+    border-radius: 0;
+    border: transparent;
+    display: inline-block;
+    font-size: 55px;
+    color: black;
+    background: transparent;
+  }
+
+  #website-button:hover {
+    color: white;
+    background: rgba(0,0,0,0.4);
+  }
+
+  .search-text {
+    margin-top: 250px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: white;
+  }
+
+  #search-box-colors {
+    color: black;
+    font-size: 18px;
+    border: 1px solid black; 
+  }
+
+  .form-control::-webkit-input-placeholder { 
+    color: black;
+    font-size: 18px; 
+  }
+  .form-control:-moz-placeholder { 
+    color: black;
+    font-size: 18px;  
+  }
+  .form-control::-moz-placeholder { 
+    color: black;
+    font-size: 18px;  
+  }
+  .form-control:-ms-input-placeholder { 
+    color: black;
+    font-size: 18px;  
+  }
+
+  .title-font {
+    color: white;
+    font-size: 20px;
+  }
+
+}
+
+
+
 
 
