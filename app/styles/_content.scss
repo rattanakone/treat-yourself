@@ -128,8 +128,8 @@ hr .title {
 
 @media (min-width: 768px) {
   .main-models .intro-text {
-    padding-top: 270px;
-    padding-bottom: 100px;
+    padding-top: 300px;
+    padding-bottom: 110px;
   }
   .main-models .intro-text .intro-lead-in {
     font-size: 80px;
@@ -163,36 +163,26 @@ hr .title {
   border-color: transparent;
   display: inline-block;
   font-size: 13px;
-  background: rgba(255,255,255,0.8);
+  background: white;
   color: black;
-  -moz-animation: fadeIn 25s;
-  -ms-animation: fadeIn 25s;
-  -o-animation: fadeIn 25s;
-  -webkit-animation: fadeIn 25s;
-  animation: fadeIn 25s;
 }
 
 @media (min-width: 768px) {
   .start-button {
-    padding: 10px 45px;
+    padding: 10px 30px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
-    font-size: 20px;
-    background: rgba(255,255,255,0.8);
+    font-size: 18px;
+    background: white;
     color: black;
-    -moz-animation: fadeIn 25s;
-    -ms-animation: fadeIn 25s;
-    -o-animation: fadeIn 25s;
-    -webkit-animation: fadeIn 25s;
-    animation: fadeIn 25s;
   }
   
 }
 
 .start-button:hover {
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.8);
   border-color: transparent;
 }
 
@@ -273,7 +263,13 @@ hr .title {
   -webkit-animation: fadeIn 7s;
   animation: fadeIn 7s;
   color: white;
-  
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.daytime-looks:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .evening-looks {
@@ -292,7 +288,13 @@ hr .title {
   -webkit-animation: fadeIn 7s;
   animation: fadeIn 7s;
   color: white;
- 
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.evening-looks:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .mix-looks {
@@ -311,9 +313,14 @@ hr .title {
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
   color: white;
-  
+  opacity: 1;
+  filter: alpha(opacity=40);
 }
 
+.mix-looks:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
 
 .space-looks {
   padding-top: 200px;
@@ -333,45 +340,45 @@ hr .title {
 }
 
 .lookbook-buttons {
-  padding: 3px 13px;
+  padding: 5px 17px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 12px;
-  background: rgba(255,255,255,0.8);
+  font-size: 14px;
+  background: white;
   color: black;
   margin-left: 115px;
 }
 
 .mix-lookbook-button {
-  padding: 3px 13px;
+  padding: 5px 17px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 12px;
-  background: rgba(255,255,255,0.8);
+  font-size: 14px;
+  background: white;
   color: black;
   margin-left: 120px;
 }
 
 @media (min-width: 768px) {
   .lookbook-buttons {
-    padding: 3px 13px;
+    padding: 5px 25px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
-    font-size: 13px;
-    background: rgba(255,255,255,0.8);
+    font-size: 18px;
+    background: white;
     color: black;
     margin-left: 115px;
   }
   .mix-lookbook-button {
-    padding: 3px 13px;
+    padding: 5px 25px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
-    font-size: 13px;
-    background: rgba(255,255,255,0.8);
+    font-size: 18px;
+    background: white;
     color: black;
     margin-left: 120px;
   }
@@ -379,13 +386,13 @@ hr .title {
 
 .lookbook-buttons:hover {
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.9);
   border-color: transparent;
 }
 
 .mix-lookbook-button:hover {
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.9);
   border-color: transparent;
 }
 
@@ -551,6 +558,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.work-image:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .work-image:hover .view-button {
@@ -572,6 +586,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.cafe-image:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .cafe-image:hover .view-button {
@@ -593,6 +614,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.lunch-image:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .lunch-image:hover .view-button {
@@ -614,6 +642,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.date-image:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .date-image:hover .view-button {
@@ -635,6 +670,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.errands-image:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .errands-image:hover .view-button {
@@ -762,6 +804,13 @@ hr .title {
     -o-animation: fadeIn 13s;
     -webkit-animation: fadeIn 13s;
     animation: fadeIn 13s;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  .work-image:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
   }
 
   .work-image:hover .view-button {
@@ -784,6 +833,13 @@ hr .title {
     -o-animation: fadeIn 13s;
     -webkit-animation: fadeIn 13s;
     animation: fadeIn 13s;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  .cafe-image:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
   }
 
   .cafe-image:hover .view-button {
@@ -806,6 +862,13 @@ hr .title {
     -o-animation: fadeIn 13s;
     -webkit-animation: fadeIn 13s;
     animation: fadeIn 13s;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  .lunch-image:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
   }
 
   .lunch-image:hover .view-button {
@@ -828,6 +891,13 @@ hr .title {
     -o-animation: fadeIn 13s;
     -webkit-animation: fadeIn 13s;
     animation: fadeIn 13s;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  .date-image:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
   }
 
   .date-image:hover .view-button {
@@ -850,9 +920,16 @@ hr .title {
     -o-animation: fadeIn 13s;
     -webkit-animation: fadeIn 13s;
     animation: fadeIn 13s;
+    opacity: 1;
+    filter: alpha(opacity=40);
   }
 
-.errands-image:hover .view-button {
+  .errands-image:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
+  }
+
+  .errands-image:hover .view-button {
     visibility: visible;
     opacity: 1;
   }
@@ -924,21 +1001,21 @@ hr .title {
 
 @media (min-width: 768px) {
   #theme-button {
-    padding: 3px 13px;
+    padding: 3px 17px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
-    font-size: 13px;
-    background: rgba(255,255,255,0.8);
+    font-size: 15px;
+    background: white;
     color: black;
   }
   #hide-button {
-    padding: 3px 13px;
+    padding: 3px 17px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
-    font-size: 13px;
-    background: rgba(255,255,255,0.8);
+    font-size: 15px;
+    background: white;
     color: black;
   }
 }
@@ -947,13 +1024,13 @@ hr .title {
 
 #theme-button:hover {
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.9);
   border-color: transparent;
 }
 
 #hide-button:hover {
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.9);
   border-color: transparent;
 }
 
@@ -1482,7 +1559,16 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
 }
+
+.michelle-image-one:hover {
+  opacity: 0.50;
+  filter: alpha(opacity=100);
+}
+
+
 
 .space-michelle-image-one {
   padding-top: 150px;
@@ -1651,6 +1737,13 @@ hr .title {
     -o-animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     animation: fadeIn 5s;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  .michelle-image-one:hover {
+    opacity: 0.50;
+    filter: alpha(opacity=100);
   }
 
   .space-michelle-image-one {
