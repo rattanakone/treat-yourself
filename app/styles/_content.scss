@@ -1713,11 +1713,9 @@ hr .title {
 }
 
 .michelle-image-one:hover {
-  opacity: 0.50;
+  opacity: 0.8;
   filter: alpha(opacity=100);
 }
-
-
 
 .space-michelle-image-one {
   padding-top: 150px;
@@ -1738,6 +1736,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.michelle-image-two:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=100);
 }
 
 .space-michelle-image-two {
@@ -1759,6 +1764,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.michelle-image-three:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=100);
 }
 
 .space-michelle-image-three {
@@ -1794,6 +1806,7 @@ hr .title {
 }
 
 .michelle-website-name {
+  padding: 5px 8px;
   color: black;
 }
 
@@ -1802,13 +1815,13 @@ hr .title {
 }
 
 .michelle-website-name:hover {
-  padding: 5px 10px;
+  padding: 5px 8px;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: black;
 }
 
 #website-button {
-  padding: 5px 20px;
+  padding: 3px 8px;
   border-radius: 0;
   border: transparent;
   display: inline-block;
@@ -1818,8 +1831,9 @@ hr .title {
 }
 
 #website-button:hover {
+  padding: 3px 8px;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: black;
 }
 
 .bg-black {
@@ -1891,7 +1905,7 @@ hr .title {
   }
 
   .michelle-image-one:hover {
-    opacity: 0.50;
+    opacity: 0.8;
     filter: alpha(opacity=100);
   }
 
@@ -1945,6 +1959,13 @@ hr .title {
     -o-animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     animation: fadeIn 5s;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  .michelle-image-two:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=100);
   }
 
   .space-michelle-image-two {
@@ -1966,6 +1987,13 @@ hr .title {
     -o-animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     animation: fadeIn 5s;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  .michelle-image-three:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=100);
   }
 
   .space-michelle-image-three {
@@ -1973,10 +2001,19 @@ hr .title {
     padding-bottom: 400px;
   }
 
+  .michelle-website-name {
+    padding: 5px 20px;
+    color: black;
+  }
+
+  .michelle-website-name:link {
+    text-decoration: none;
+  }
+
   .michelle-website-name:hover {
     padding: 5px 20px;
     color: white;
-    background: rgba(0,0,0,0.4);
+    background: black;
   }
 
   #website-button {
@@ -1990,8 +2027,9 @@ hr .title {
   }
 
   #website-button:hover {
+    padding: 5px 10px;
     color: white;
-    background: rgba(0,0,0,0.4);
+    background: black;
   }
 
   .search-text {
