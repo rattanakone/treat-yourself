@@ -64,6 +64,56 @@ angular
         controller: 'GuruCtrl',
         controllerAs: 'guru'
       })
+      .when('/work', {
+        templateUrl: 'views/work.html',
+        controller: 'WorkCtrl',
+        controllerAs: 'work'
+      })
+      .when('/cafe', {
+        templateUrl: 'views/cafe.html',
+        controller: 'CafeCtrl',
+        controllerAs: 'cafe'
+      })
+      .when('/lunch', {
+        templateUrl: 'views/lunch.html',
+        controller: 'LunchCtrl',
+        controllerAs: 'lunch'
+      })
+      .when('/date', {
+        templateUrl: 'views/date.html',
+        controller: 'DateCtrl',
+        controllerAs: 'date'
+      })
+      .when('/errands', {
+        templateUrl: 'views/errands.html',
+        controller: 'ErrandsCtrl',
+        controllerAs: 'errands'
+      })
+      .when('/dinner', {
+        templateUrl: 'views/dinner.html',
+        controller: 'DinnerCtrl',
+        controllerAs: 'dinner'
+      })
+      .when('/clubbing', {
+        templateUrl: 'views/clubbing.html',
+        controller: 'ClubbingCtrl',
+        controllerAs: 'clubbing'
+      })
+      .when('/datenight', {
+        templateUrl: 'views/datenight.html',
+        controller: 'DatenightCtrl',
+        controllerAs: 'datenight'
+      })
+      .when('/ladiesnight', {
+        templateUrl: 'views/ladiesnight.html',
+        controller: 'LadiesnightCtrl',
+        controllerAs: 'ladiesnight'
+      })
+      .when('/parties', {
+        templateUrl: 'views/parties.html',
+        controller: 'PartiesCtrl',
+        controllerAs: 'parties'
+      })
       .otherwise({
         redirectTo: '/'
       });

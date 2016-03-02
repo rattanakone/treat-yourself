@@ -686,27 +686,27 @@ hr .title {
 
 .work-look-title {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .cafe-look-title {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .lunch-look-title {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .date-look-title {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .errands-look-title {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 @media (min-width: 768px) {
@@ -1058,6 +1058,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.dinner-image:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .dinner-image:hover .view-button {
@@ -1079,6 +1086,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.clubbing-image:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .clubbing-image:hover .view-button {
@@ -1100,6 +1114,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.date-night-image:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .date-night-image:hover .view-button {
@@ -1121,6 +1142,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.ladies-night-image:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .ladies-night-image:hover .view-button {
@@ -1142,6 +1170,13 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.parties-image:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
 }
 
 .parties-image:hover .view-button {
@@ -1151,27 +1186,27 @@ hr .title {
 
 .dinner-look-title {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .clubbing-look-title {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .date-night-look-title {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .ladies-night-look-title {
   color: white;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .parties-look-title {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 @media (min-width: 768px) {
@@ -1268,6 +1303,13 @@ hr .title {
     -o-animation: fadeIn 13s;
     -webkit-animation: fadeIn 13s;
     animation: fadeIn 13s;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  .dinner-image:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
   }
 
   .dinner-image:hover .view-button {
@@ -1290,6 +1332,13 @@ hr .title {
     -o-animation: fadeIn 13s;
     -webkit-animation: fadeIn 13s;
     animation: fadeIn 13s;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  .clubbing-image:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
   }
 
   .clubbing-image:hover .view-button {
@@ -1312,6 +1361,13 @@ hr .title {
     -o-animation: fadeIn 13s;
     -webkit-animation: fadeIn 13s;
     animation: fadeIn 13s;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  .date-night-image:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
   }
 
   .date-night-image:hover .view-button {
@@ -1334,6 +1390,13 @@ hr .title {
     -o-animation: fadeIn 13s;
     -webkit-animation: fadeIn 13s;
     animation: fadeIn 13s;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  .ladies-night-image:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
   }
 
   .ladies-night-image:hover .view-button {
@@ -1356,9 +1419,16 @@ hr .title {
     -o-animation: fadeIn 13s;
     -webkit-animation: fadeIn 13s;
     animation: fadeIn 13s;
+    opacity: 1;
+    filter: alpha(opacity=40);
   }
 
-.parties-image:hover .view-button {
+  .parties-image:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
+  }
+
+  .parties-image:hover .view-button {
     visibility: visible;
     opacity: 1;
   }
