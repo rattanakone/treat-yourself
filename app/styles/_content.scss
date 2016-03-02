@@ -1943,7 +1943,8 @@ hr .title {
 
 .title-font {
   color: white;
-  font-size: 14px;
+  font-size: 15px;
+  padding: 15px;
 }
 
 #no-link a {
@@ -1951,6 +1952,8 @@ hr .title {
 }
 
 #no-link img {
+  width: 300px; 
+  height: 250px;
   opacity: 1;
   filter: alpha(opacity=40);
 }
@@ -1958,7 +1961,32 @@ hr .title {
 #no-link img:hover {
     opacity: 0.6;
     filter: alpha(opacity=100);
+}
+
+@media (min-width: 995px) {
+  .title-font {
+    color: white;
+    font-size: 15px;
+    padding: 15px;
   }
+
+  #no-link a {
+    text-decoration: none;
+  }
+
+  #no-link img {
+    width: 200px; 
+    height: 150px;
+    opacity: 1;
+    filter: alpha(opacity=40);
+  }
+
+  #no-link img:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=100);
+  }
+
+}
 
 
 @media (min-width: 930px) {
@@ -2138,12 +2166,9 @@ hr .title {
     font-size: 18px;  
   }
 
-  .title-font {
-    color: white;
-    font-size: 20px;
-  }
-
 }
+
+
 
 
 
