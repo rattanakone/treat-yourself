@@ -1479,8 +1479,8 @@ hr .title {
   border-color: transparent;
   display: inline-block;
   font-size: 20px;
-  
-  color: black;
+  background: transparent;
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -1501,12 +1501,12 @@ hr .title {
 }
 
 #shuffle-button {
-  padding: 3px 13px;
+  padding: 3px 30px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 12px;
-  background: rgba(255,255,255,0.8);
+  font-size: 15px;
+  background: white;
   color: black;
 }
 
@@ -1517,7 +1517,7 @@ hr .title {
     border-color: transparent;
     display: inline-block;
     font-size: 15px;
-    background: rgba(255,255,255,0.8);
+    background: white;
     color: black;
   }
 }
@@ -1529,8 +1529,15 @@ hr .title {
 }
 
 .question-mark {
-  font-size: 125px;
+  font-size: 100px;
   color: white;
+}
+
+@media (min-width: 768px) {
+  .question-mark {
+    font-size: 125px;
+    color: white;
+  }
 }
 
 #video-border-mix {
@@ -1538,6 +1545,7 @@ hr .title {
   margin: 1em;
   height: 202px;
   border: 1px solid white;
+  background: rgba(255,255,255,0.1);;
 }
 
 @media (min-width: 768px) {
@@ -1546,6 +1554,7 @@ hr .title {
     margin: 1em;
     height: 244px;
     border: 1px solid white;
+    background: rgba(255,255,255,0.1);;
   }
 }
 
@@ -1563,11 +1572,12 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  border-top: 2px solid white;
 }
 
 .space-makeup {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .hair-image {
@@ -1584,11 +1594,12 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  border-top: 2px solid white;
 }
 
 .space-hair {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .outfit-image {
@@ -1605,11 +1616,79 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
+  border-top: 2px solid white;
 }
 
 .space-outfit {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .makeup-image {
+    background-image: url('../images/makeup.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+  }
+
+  .space-makeup {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .hair-image {
+    background-image: url('../images/hair.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+    border-left: 15px solid white;
+  }
+
+  .space-hair {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .outfit-image {
+    background-image: url('../images/outfit.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+    border-left: 15px solid white;
+  }
+
+  .space-outfit {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 
