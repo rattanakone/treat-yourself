@@ -2235,6 +2235,7 @@ hr .title {
 
   .space-main-work {
     padding-top: 70px;
+    padding-bottom: 50px;
   }
   
 }
@@ -2292,11 +2293,180 @@ hr .title {
 
   .space-main-cafe {
     padding-top: 70px;
+    padding-bottom: 50px;
   }
   
 }
 
+/* start daytime lunch view */
 
+.lunch-look-main-title {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
 
+.lunch-main-image {
+  background-image: url('../images/lunchlook.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+}
 
+.space-main-lunch {
+  padding-top: 20px;
+}
 
+@media (min-width: 990px) {
+  .lunch-look-main-title {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
+
+  .lunch-main-image {
+    background-image: url('../images/lunchlook.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+  }
+
+  .space-main-lunch {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  
+}
+
+/* start daytime date view */
+
+.date-look-main-title {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
+
+.date-main-image {
+  background-image: url('../images/datelook.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+}
+
+.space-main-date {
+  padding-top: 20px;
+}
+
+@media (min-width: 990px) {
+  .date-look-main-title {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }  
+
+  .date-main-image {
+    background-image: url('../images/datelook.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+  }
+
+  .space-main-date {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+}
+
+/* start daytime errands view */
+
+.errands-look-main-title {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
+
+.errands-main-image {
+  background-image: url('../images/errandslook.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+}
+
+.space-main-errands {
+  padding-top: 20px;
+}
+
+@media (min-width: 990px) {
+  .errands-look-main-title {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
+
+  .errands-main-image {
+    background-image: url('../images/errandslook.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+  }  
+
+  .space-main-errands {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+}
