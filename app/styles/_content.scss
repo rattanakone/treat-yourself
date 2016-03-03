@@ -1034,6 +1034,11 @@ hr .title {
   margin: 1em;
   height: 268px;
   background: black;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
 }
 
 @media (min-width: 768px) {
@@ -1042,6 +1047,11 @@ hr .title {
     margin: 1em;
     height: 322px;
     background: black;
+    -moz-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
   }
 }
 
