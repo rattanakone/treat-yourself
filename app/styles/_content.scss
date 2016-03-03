@@ -539,6 +539,11 @@ hr .title {
 
 /* start looks navigation */
 
+/* #looks-nav .active {
+  background: rgba(0,0,0,0.6);
+  color: white;
+} */
+
 #looks-nav {
   border-radius: 0;
   border: 0;
@@ -864,7 +869,6 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    width: 1440px;
     -moz-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
@@ -893,7 +897,6 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    width: 1440px;
     -moz-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
@@ -922,7 +925,6 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    width: 1440px;
     -moz-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
@@ -951,7 +953,6 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    width: 1440px;
     -moz-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
@@ -980,7 +981,6 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    width: 1440px;
     -moz-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
@@ -1012,7 +1012,7 @@ hr .title {
   border-color: transparent;
   display: inline-block;
   font-size: 20px;
-  background: rgba(0,0,0,0.1);
+  background: transparent;
   color: white;
 }
 
@@ -1022,8 +1022,8 @@ hr .title {
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
-    font-size: 25px;
-    background: rgba(0,0,0,0.1);
+    font-size: 35px;
+    background: transparent;
     color: white;
   }
 }
@@ -1051,7 +1051,7 @@ hr .title {
   border-color: transparent;
   display: inline-block;
   font-size: 12px;
-  background: rgba(255,255,255,0.8);
+  background: white;
   color: black;
 }
 
@@ -1061,7 +1061,7 @@ hr .title {
   border-color: transparent;
   display: inline-block;
   font-size: 12px;
-  background: rgba(255,255,255,0.8);
+  background: white;
   color: black;
 }
 
@@ -1363,7 +1363,6 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    width: 1440px;
     -moz-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
@@ -1392,7 +1391,6 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    width: 1440px;
     -moz-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
@@ -1421,7 +1419,6 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    width: 1440px;
     -moz-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
@@ -1450,7 +1447,6 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    width: 1440px;
     -moz-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
@@ -1479,7 +1475,6 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    width: 1440px;
     -moz-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
@@ -1611,7 +1606,7 @@ hr .title {
   margin: 1em;
   height: 202px;
   border: 1px solid white;
-  background: rgba(255,255,255,0.1);;
+  background: rgba(255,255,255,0.1);
 }
 
 @media (min-width: 768px) {
@@ -1620,7 +1615,7 @@ hr .title {
     margin: 1em;
     height: 244px;
     border: 1px solid white;
-    background: rgba(255,255,255,0.1);;
+    background: rgba(255,255,255,0.1);
   }
 }
 
@@ -2168,7 +2163,138 @@ hr .title {
 
 }
 
+/* start daytime individual views */
 
+
+/* start daytime work view */
+
+.work-look-main-title {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
+
+.work-main-image {
+  background-image: url('../images/worklook.png');
+  background-repeat: none;
+  background-attachment: scroll;
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+}
+
+.space-main-work {
+  padding-top: 20px;
+}
+
+#back-button {
+  padding: 3px 18px;
+  border-radius: 0;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 16px;
+  background: black;
+  color: white;
+}
+
+#back-button:hover {
+  color: black;
+  background: white;
+  border-color: black;
+}
+
+@media (min-width: 990px) {
+  .work-look-main-title {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
+
+  .work-main-image {
+    background-image: url('../images/worklook.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+  }
+
+  .space-main-work {
+    padding-top: 70px;
+  }
+  
+}
+
+/* start daytime cafe view */
+
+.cafe-look-main-title {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
+
+.cafe-main-image {
+  background-image: url('../images/cafelook.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+}
+
+.space-main-cafe {
+  padding-top: 20px;
+}
+
+@media (min-width: 990px) {
+  .cafe-look-main-title {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
+
+  .cafe-main-image {
+    background-image: url('../images/cafelook.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+  }
+
+  .space-main-cafe {
+    padding-top: 70px;
+  }
+  
+}
 
 
 
