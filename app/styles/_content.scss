@@ -1922,6 +1922,7 @@ hr .title {
   color: black;
   font-size: 14px;
   border: 1px solid black; 
+  border-radius: 0;
 }
 
 .form-control::-webkit-input-placeholder { 
@@ -1941,9 +1942,16 @@ hr .title {
   font-size: 14px;  
 }
 
-#search-button-colors {
+.search-button-colors {
   background: white;
-  border: 1px solid black;
+  color: black;
+  border: transparent;
+  border-radius: 0;
+}
+
+.search-button-colors:hover {
+  background: black;
+  color: white;
 }
 
 .title-font {
@@ -2151,7 +2159,8 @@ hr .title {
   #search-box-colors {
     color: black;
     font-size: 18px;
-    border: 1px solid black; 
+    border: 1px solid black;
+    border-radius: 0; 
   }
 
   .form-control::-webkit-input-placeholder { 
