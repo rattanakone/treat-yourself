@@ -1501,7 +1501,7 @@ hr .title {
   border-color: transparent;
   display: inline-block;
   font-size: 20px;
-  background: rgba(0,0,0,0.1);
+  background: transparent;
   color: white;
 }
 
@@ -1511,8 +1511,8 @@ hr .title {
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
-    font-size: 25px;
-    background: rgba(0,0,0,0.1);
+    font-size: 35px;
+    background: transparent;
     color: white;
   }
 }
@@ -2468,5 +2468,302 @@ hr .title {
     padding-top: 70px;
     padding-bottom: 50px;
   }
+
+}
+
+
+/* start evening individual views */
+
+
+/* start evening dinner view */
+
+.dinner-look-main-title {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
+
+.dinner-main-image {
+  background-image: url('../images/dinnerlook.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+}
+
+.space-main-dinner {
+  padding-top: 20px;
+}
+
+@media (min-width: 990px) {
+  .dinner-look-main-title {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
+
+  .dinner-main-image {
+    background-image: url('../images/dinnerlook.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+  }
+
+  .space-main-dinner {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+}
+
+/* start evening clubbing view */
+
+.clubbing-look-main-title {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
+
+.clubbing-main-image {
+  background-image: url('../images/clubbinglook.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+}
+
+.space-main-clubbing {
+  padding-top: 20px;
+}
+
+@media (min-width: 990px) {
+  .clubbing-look-main-title {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
+
+  .clubbing-main-image {
+    background-image: url('../images/clubbinglook.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+  }
+
+  .space-main-clubbing {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+}
+
+/* start evening datenight view */
+
+.datenight-look-main-title {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
+
+.datenight-main-image {
+  background-image: url('../images/datenightlook.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+}
+
+.space-main-datenight {
+  padding-top: 20px;
+}
+
+@media (min-width: 990px) {
+  .datenight-look-main-title {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
+
+  .datenight-main-image {
+    background-image: url('../images/datenightlook.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+  }
+
+  .space-main-datenight {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+
+}
+
+/* start evening ladiesnight view */
+
+.ladiesnight-look-main-title {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
+
+.ladiesnight-main-image {
+  background-image: url('../images/ladiesnightlook.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+}
+
+.space-main-ladiesnight {
+  padding-top: 20px;
+}
+
+@media (min-width: 990px) {
+  .ladiesnight-look-main-title {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
+
+  .ladiesnight-main-image {
+    background-image: url('../images/ladiesnightlook.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+  }
+
+  .space-main-ladiesnight {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+
+}
+
+/* start evening ladiesnight view */
+
+.parties-look-main-title {
+  margin-top: 50px;
+  font-size: 35px;
+  color: black;
+}
+
+.parties-main-image {
+  background-image: url('../images/partieslook.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+}
+
+.space-main-parties {
+  padding-top: 20px;
+}
+
+@media (min-width: 990px) {
+  .parties-look-main-title {
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+  }
+
+  .parties-main-image {
+    background-image: url('../images/partieslook.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+  }
+
+  .space-main-parties {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
 
 }
