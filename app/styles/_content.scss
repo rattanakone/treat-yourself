@@ -1918,6 +1918,15 @@ hr .title {
   color: white;
 }
 
+/* start no results guru view */
+
+.no-results {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  font-size: 25px;
+  color: white;
+}
+
 #search-box-colors {
   color: black;
   font-size: 14px;
@@ -2152,6 +2161,13 @@ hr .title {
   .search-text {
     margin-top: 250px;
     margin-bottom: 50px;
+    font-size: 45px;
+    color: white;
+  }
+
+  .no-results {
+    padding-top: 20px;
+    padding-bottom: 200px;
     font-size: 45px;
     color: white;
   }
@@ -2786,3 +2802,7 @@ hr .title {
 
 
 }
+
+
+
+
