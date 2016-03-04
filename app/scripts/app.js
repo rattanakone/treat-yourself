@@ -20,7 +20,6 @@ angular
     'ngStorage', // added to enable localStorage features
     'ngTouch',
     'ngDraggable'
-    
   ])
   .config(function ($routeProvider) {
     $routeProvider
