@@ -191,7 +191,7 @@ hr .title {
 #main-nav {
   border-radius: 0;
   border: 0;
-  background: rgba(0,0,0,0.1);
+  background: transparent;
   padding: 20px;
   -moz-animation: fadeIn 13s;
   -ms-animation: fadeIn 13s;
@@ -202,7 +202,7 @@ hr .title {
 
 #main-nav a {
   color: white;
-  font-size: 19px;
+  font-size: 17px;
 }
 
 #main-nav a:hover {
@@ -557,7 +557,7 @@ hr .title {
 
 #looks-nav a {
   color: black;
-  font-size: 19px;
+  font-size: 17px;
 }
 
 #looks-nav a:hover {
@@ -1773,11 +1773,7 @@ hr .title {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  -moz-animation: fadeIn 3s;
-  -ms-animation: fadeIn 3s;
-  -o-animation: fadeIn 3s;
-  -webkit-animation: fadeIn 3s;
-  animation: fadeIn 3s;
+  
   opacity: 1;
   filter: alpha(opacity=40);
 }
@@ -1801,11 +1797,7 @@ hr .title {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  -moz-animation: fadeIn 3s;
-  -ms-animation: fadeIn 3s;
-  -o-animation: fadeIn 3s;
-  -webkit-animation: fadeIn 3s;
-  animation: fadeIn 3s;
+ 
   opacity: 1;
   filter: alpha(opacity=40);
 }
@@ -1829,11 +1821,7 @@ hr .title {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  -moz-animation: fadeIn 3s;
-  -ms-animation: fadeIn 3s;
-  -o-animation: fadeIn 3s;
-  -webkit-animation: fadeIn 3s;
-  animation: fadeIn 3s;
+  
   opacity: 1;
   filter: alpha(opacity=40);
 }
@@ -2026,11 +2014,7 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    -moz-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    animation: fadeIn 3s;
+    
     opacity: 1;
     filter: alpha(opacity=40);
   }
@@ -2085,11 +2069,7 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    -moz-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    animation: fadeIn 3s;
+    
     opacity: 1;
     filter: alpha(opacity=40);
   }
@@ -2113,11 +2093,7 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    -moz-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    animation: fadeIn 3s;
+    
     opacity: 1;
     filter: alpha(opacity=40);
   }
