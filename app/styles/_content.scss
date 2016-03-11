@@ -350,7 +350,7 @@ hr .title {
     text-align: center;
     -moz-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
-    -o-animation: fadeIn 7s;
+    -o-animation: fadeIn 3s;
     -webkit-animation: fadeIn 3s;
     animation: fadeIn 3s;
     color: white;
@@ -467,6 +467,11 @@ hr .title {
   color: black;
   padding-top: 5px;
   padding-bottom: 50px;
+  -moz-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s;
 }
 
 @media (min-width: 768px) {
@@ -474,6 +479,11 @@ hr .title {
     font-size: 35px;
     color: black;
     padding-bottom: 50px;
+    -moz-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
   }
 }
 
@@ -623,7 +633,11 @@ hr .title {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  
+  -moz-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s;
   opacity: 1;
   filter: alpha(opacity=40);
 }
@@ -647,7 +661,11 @@ hr .title {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  
+  -moz-animation: fadeIn 9s;
+  -ms-animation: fadeIn 9s;
+  -o-animation: fadeIn 9s;
+  -webkit-animation: fadeIn 9s;
+  animation: fadeIn 9s;
   opacity: 1;
   filter: alpha(opacity=40);
 }
@@ -671,7 +689,11 @@ hr .title {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  
+  -moz-animation: fadeIn 14s;
+  -ms-animation: fadeIn 14s;
+  -o-animation: fadeIn 14s;
+  -webkit-animation: fadeIn 14s;
+  animation: fadeIn 14s;
   opacity: 1;
   filter: alpha(opacity=40);
 }
@@ -848,7 +870,11 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
+    -moz-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
     opacity: 1;
     filter: alpha(opacity=40);
   }
@@ -872,7 +898,11 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
+    -moz-animation: fadeIn 9s;
+    -ms-animation: fadeIn 9s;
+    -o-animation: fadeIn 9s;
+    -webkit-animation: fadeIn 9s;
+    animation: fadeIn 9s;
     opacity: 1;
     filter: alpha(opacity=40);
   }
@@ -896,7 +926,11 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
+    -moz-animation: fadeIn 14s;
+    -ms-animation: fadeIn 14s;
+    -o-animation: fadeIn 14s;
+    -webkit-animation: fadeIn 14s;
+    animation: fadeIn 14s;
     opacity: 1;
     filter: alpha(opacity=40);
   }
@@ -1693,7 +1727,11 @@ hr .title {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  
+  -moz-animation: slideInLeft 1s;
+  -ms-animation: slideInLeft 1s;
+  -o-animation: slideInLeft 1s;
+  -webkit-animation: slideInLeft 1s;
+  animation: slideInLeft 1s;
   opacity: 1;
   filter: alpha(opacity=40);
 }
@@ -1781,6 +1819,26 @@ hr .title {
   font-size: 17px;
   color: black;
   letter-spacing: 1px;
+}
+
+.michelle-website-name-one {
+  padding: 5px 8px;
+  color: black;
+  -moz-animation: slideInRight 1s;
+  -ms-animation: slideInRight 1s;
+  -o-animation: slideInRight 1s;
+  -webkit-animation: slideInRight 1s;
+  animation: slideInRight 1s;
+}
+
+.michelle-website-name-one:link {
+  text-decoration: none;
+}
+
+.michelle-website-name-one:hover {
+  padding: 5px 8px;
+  color: white;
+  background: black;
 }
 
 .michelle-website-name {
@@ -1934,7 +1992,11 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    
+    -moz-animation: slideInLeft 1s;
+    -ms-animation: slideInLeft 1s;
+    -o-animation: slideInLeft 1s;
+    -webkit-animation: slideInLeft 1s;
+    animation: slideInLeft 1s;
     opacity: 1;
     filter: alpha(opacity=40);
   }
@@ -1958,6 +2020,15 @@ hr .title {
     font-size: 45px;
     color: black;
     letter-spacing: 1px;
+  }
+
+  .michelle-website-name-one {
+    color: black;
+    -moz-animation: slideInRight 1s;
+    -ms-animation: slideInRight 1s;
+    -o-animation: slideInRight 1s;
+    -webkit-animation: slideInRight 1s;
+    animation: slideInRight 1s;
   }
 
   .michelle-website-name {
