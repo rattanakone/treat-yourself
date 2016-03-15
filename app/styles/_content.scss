@@ -158,32 +158,32 @@ hr .title {
 }
 
 .start-button {
-  padding: 5px 25px;
+  padding: 3px 10px;
   border-radius: 0;
-  border-color: transparent;
+  border-color: black;
   display: inline-block;
-  font-size: 13px;
-  background: white;
-  color: black;
+  font-size: 10px;
+  background: black;
+  color: white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 830px) {
   .start-button {
-    padding: 10px 30px;
+    padding: 8px 20px;
     border-radius: 0;
-    border-color: transparent;
+    border-color: black;
     display: inline-block;
     font-size: 18px;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
   }
   
 }
 
 .start-button:hover {
-  color: white;
-  background: rgba(0,0,0,0.8);
-  border-color: transparent;
+  color: black;
+  background: white;
+  border-color: black;
 }
 
 /* start navigation */
@@ -2811,5 +2811,372 @@ hr .title {
 }
 
 
+.main-image {
+  background-image: url('../images/main2.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  animation: fadeIn 10s;
+}
 
+.main-image:hover {
+  background-image: url('../images/main1.png');
+  -moz-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  animation: fadeIn 10s;
+}
+
+
+.main-space {
+  padding-top: 400px;
+}
+
+.main-space-image-one {
+  padding-top: 365px;
+}
+
+.main-space-image-two {
+  padding-top: 365px;
+}
+
+.main-title-one {
+  font-size: 20px;
+  color: black;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  -moz-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s;
+  -moz-animation: slideInLeft 2s;
+  -ms-animation: slideInLeft 2s;
+  -o-animation: slideInLeft 2s;
+  -webkit-animation: slideInLeft 2s;
+  animation: slideInLeft 2s;
+}
+
+.main-title-two {
+  font-size: 20px;
+  color: black;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  -moz-animation: fadeIn 15s;
+  -ms-animation: fadeIn 15s;
+  -o-animation: fadeIn 15s;
+  -webkit-animation: fadeIn 15s;
+  animation: fadeIn 15s;
+  -moz-animation: slideInRight 2s;
+  -ms-animation: slideInRight 2s;
+  -o-animation: slideInRight 2s;
+  -webkit-animation: slideInRight 2s;
+  animation: slideInRight 2s;
+}
+
+.main-title-three {
+  font-size: 20px;
+  color: black;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  -moz-animation: fadeIn 15s;
+  -ms-animation: fadeIn 15s;
+  -o-animation: fadeIn 15s;
+  -webkit-animation: fadeIn 15s;
+  animation: fadeIn 15s;
+}
+
+.main-sentence {
+  font-size: 13px;
+  color: white;
+  padding: 8px;
+  background: black;
+  -moz-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+}
+
+.main-border-divider {
+  padding: 10px;
+  background: black;
+}
+
+.main-continue-button {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.beauty-bg {
+  background-image: url('../images/bg-white.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  animation: fadeIn 10s;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.beauty-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.beauty-bg:hover .main-continue-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.main-image-two {
+  background-image: url('../images/main4.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s;
+}
+
+.main-image-two:hover {
+  background-image: url('../images/main3.png');
+  -moz-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeIn 5s;
+}
+
+.main-image-three {
+  background-image: url('../images/main5.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-animation: fadeIn 15s;
+  -ms-animation: fadeIn 15s;
+  -o-animation: fadeIn 15s;
+  -webkit-animation: fadeIn 15s;
+  animation: fadeIn 15s;
+}
+
+.main-image-three:hover {
+  background-image: url('../images/main6.png');
+  -moz-animation: fadeIn 15s;
+  -ms-animation: fadeIn 15s;
+  -o-animation: fadeIn 15s;
+  -webkit-animation: fadeIn 15s;
+  animation: fadeIn 15s;
+}
+
+
+@media (min-width: 830px) {
+  .main-image {
+    background-image: url('../images/main2.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -webkit-animation: fadeIn 10s;
+    animation: fadeIn 10s;
+  }
+
+  .main-image:hover {
+    background-image: url('../images/main1.png');
+    -moz-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -webkit-animation: fadeIn 10s;
+    animation: fadeIn 10s;
+  }
+
+  .main-space {
+    padding-top: 345px;
+  }
+
+  .main-space-image-one {
+    padding-top: 800px;
+  }
+
+  .main-space-image-two {
+    padding-top: 800px;
+  }
+  
+  .main-title-one {
+    font-size: 55px;
+    color: black;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    -moz-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+    -moz-animation: slideInLeft 2s;
+    -ms-animation: slideInLeft 2s;
+    -o-animation: slideInLeft 2s;
+    -webkit-animation: slideInLeft 2s;
+    animation: slideInLeft 2s;
+  }
+
+  .main-title-two {
+    font-size: 55px;
+    color: black;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    -moz-animation: fadeIn 15s;
+    -ms-animation: fadeIn 15s;
+    -o-animation: fadeIn 15s;
+    -webkit-animation: fadeIn 15s;
+    animation: fadeIn 15s;
+    -moz-animation: slideInRight 2s;
+    -ms-animation: slideInRight 2s;
+    -o-animation: slideInRight 2s;
+    -webkit-animation: slideInRight 2s;
+    animation: slideInRight 2s;
+  }
+
+  .main-title-three {
+    font-size: 55px;
+    color: black;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    -moz-animation: fadeIn 15s;
+    -ms-animation: fadeIn 15s;
+    -o-animation: fadeIn 15s;
+    -webkit-animation: fadeIn 15s;
+    animation: fadeIn 15s;
+  }
+
+  .main-sentence {
+    font-size: 20px;
+    color: white;
+    padding: 13px;
+    background: black;
+    -moz-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+  }
+
+  .main-border-divider {
+    padding: 15px;
+    background: black;
+  }
+
+  .main-continue-button {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .beauty-bg {
+    background-image: url('../images/bg-white.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -webkit-animation: fadeIn 10s;
+    animation: fadeIn 10s;
+  }
+
+  .beauty-bg:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=100);
+  }
+
+  .beauty-bg:hover .main-continue-button {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .main-image-two {
+    background-image: url('../images/main4.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+  }
+
+  .main-image-two:hover {
+    background-image: url('../images/main3.png');
+    -moz-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+  }
+
+  .main-image-three {
+    background-image: url('../images/main5.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-animation: fadeIn 15s;
+    -ms-animation: fadeIn 15s;
+    -o-animation: fadeIn 15s;
+    -webkit-animation: fadeIn 15s;
+    animation: fadeIn 15s;
+  }
+
+  .main-image-three:hover {
+    background-image: url('../images/main6.png');
+    -moz-animation: fadeIn 15s;
+    -ms-animation: fadeIn 15s;
+    -o-animation: fadeIn 15s;
+    -webkit-animation: fadeIn 15s;
+    animation: fadeIn 15s;
+  }
+
+}
 
