@@ -329,7 +329,7 @@ hr .title {
 
 .space-looks {
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
 .lookbook-title {
@@ -337,7 +337,7 @@ hr .title {
   color: black;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 995px) {
   .daytime-looks {
     background-image: url('../images/daytime.png');
     background-repeat: none;
@@ -399,6 +399,11 @@ hr .title {
     border-left: 15px solid white;
   }
 
+  .space-looks {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
   .lookbook-title {
     font-size: 45px;
     color: black;
@@ -406,7 +411,7 @@ hr .title {
 }
 
 .lookbook-buttons {
-  padding: 5px 17px;
+  padding: 1px 12px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
@@ -417,7 +422,7 @@ hr .title {
 }
 
 .mix-lookbook-button {
-  padding: 5px 17px;
+  padding: 1px 12px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
@@ -429,7 +434,7 @@ hr .title {
 
 @media (min-width: 768px) {
   .lookbook-buttons {
-    padding: 5px 25px;
+    padding: 1px 18px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
@@ -439,7 +444,7 @@ hr .title {
     margin-left: 115px;
   }
   .mix-lookbook-button {
-    padding: 5px 25px;
+    padding: 1px 18px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
@@ -463,10 +468,10 @@ hr .title {
 }
 
 .question-title {
-  font-size: 25px;
-  color: black;
-  padding-top: 5px;
-  padding-bottom: 50px;
+  font-size: 18px;
+  padding: 7px;
+  color: white;
+  background: black;
   -moz-animation: fadeIn 5s;
   -ms-animation: fadeIn 5s;
   -o-animation: fadeIn 5s;
@@ -476,9 +481,10 @@ hr .title {
 
 @media (min-width: 768px) {
   .question-title {
-    font-size: 35px;
-    color: black;
-    padding-bottom: 50px;
+    font-size: 20px;
+    padding: 9px;
+    color: white;
+    background: black;
     -moz-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
