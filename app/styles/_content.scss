@@ -859,28 +859,28 @@ hr .title {
 
 @media (min-width: 1200px) {
   .space-work {
-    padding-top: 85px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
   }
 
   .space-cafe {
-    padding-top: 85px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
   }
 
   .space-lunch {
-    padding-top: 85px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
   }
 
   .space-date {
-    padding-top: 85px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
   }
 
   .space-errands {
-    padding-top: 85px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
   }
 
   .work-image {
@@ -1345,28 +1345,28 @@ hr .title {
 
 @media (min-width: 1200px) {
   .space-dinner {
-    padding-top: 85px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
   }
 
   .space-clubbing {
-    padding-top: 85px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
   }
 
   .space-date-night {
-    padding-top: 85px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
   }
 
   .space-ladies-night {
-    padding-top: 85px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
   }
 
   .space-parties {
-    padding-top: 85px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
   }
 
   .dinner-image {
@@ -1547,6 +1547,11 @@ hr .title {
   font-size: 20px;
   background: transparent;
   color: white;
+  -moz-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  animation: fadeIn 10s;
 }
 
 @media (min-width: 768px) {
@@ -1558,6 +1563,11 @@ hr .title {
     font-size: 40px;
     background: transparent;
     color: white;
+    -moz-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -webkit-animation: fadeIn 10s;
+    animation: fadeIn 10s;
   }
 }
 
@@ -1567,7 +1577,7 @@ hr .title {
 }
 
 #shuffle-button {
-  padding: 1px 13px;
+  padding: 1px 10px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
@@ -1578,7 +1588,7 @@ hr .title {
 
 @media (min-width: 768px) {
   #shuffle-button {
-    padding: 1px 20px;
+    padding: 1px 16px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
@@ -1613,6 +1623,11 @@ hr .title {
   width: 165px;
   border: 1px solid white;
   background: white;
+  -moz-animation: fadeIn 9s;
+  -ms-animation: fadeIn 9s;
+  -o-animation: fadeIn 9s;
+  -webkit-animation: fadeIn 9s;
+  animation: fadeIn 9s;
 }
 
 @media (min-width: 768px) {
@@ -1623,6 +1638,11 @@ hr .title {
     width: 350px;
     border: 1px solid white;
     background: white;
+    -moz-animation: fadeIn 9s;
+    -ms-animation: fadeIn 9s;
+    -o-animation: fadeIn 9s;
+    -webkit-animation: fadeIn 9s;
+    animation: fadeIn 9s;
   }
 }
 
@@ -1630,7 +1650,6 @@ hr .title {
   background-image: url('../images/makeup.png');
   background-repeat: none;
   background-attachment: scroll;
-  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -1640,7 +1659,7 @@ hr .title {
   -o-animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   animation: fadeIn 5s;
-  border-top: 2px solid white;
+  border-top: 1px solid white;
 }
 
 .space-makeup-image {
@@ -1660,12 +1679,12 @@ hr .title {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  -moz-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  animation: fadeIn 5s;
-  border-top: 2px solid white;
+  -moz-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  animation: fadeIn 10s;
+  border-top: 1px solid white;
 }
 
 .space-hair-image {
@@ -1686,12 +1705,12 @@ hr .title {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  -moz-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  animation: fadeIn 5s;
-  border-top: 2px solid white;
+  -moz-animation: fadeIn 19s;
+  -ms-animation: fadeIn 19s;
+  -o-animation: fadeIn 19s;
+  -webkit-animation: fadeIn 19s;
+  animation: fadeIn 19s;
+  border-top: 1px solid white;
 }
 
 .space-outfit-image {
@@ -1708,7 +1727,6 @@ hr .title {
     background-image: url('../images/makeup.png');
     background-repeat: none;
     background-attachment: scroll;
-    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1737,12 +1755,11 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    -moz-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    animation: fadeIn 5s;
-    border-left: 15px solid white;
+    -moz-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -webkit-animation: fadeIn 10s;
+    animation: fadeIn 10s;
   }
 
   .space-hair-image {
@@ -1763,12 +1780,11 @@ hr .title {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    -moz-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    animation: fadeIn 5s;
-    border-left: 15px solid white;
+    -moz-animation: fadeIn 19s;
+    -ms-animation: fadeIn 19s;
+    -o-animation: fadeIn 19s;
+    -webkit-animation: fadeIn 19s;
+    animation: fadeIn 19s;
   }
 
   .space-outfit-image {
