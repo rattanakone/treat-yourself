@@ -31,23 +31,28 @@
   <div class="row">
     <div class="col-sm-12 text-center">
       <p class="mix-text">
-        MIX IT UP
+        Mix
       </p>
     </div>
   </div>
 </div>
 
-
-<div class="row">
-  <div class="col-md-4 makeup-image text-center">
-    <div class="space-makeup">
+<div class="row makeup-image">
+  <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+    <div class="space-makeup-image">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 space-makeup-text">
           <p class="btn btn-default" id="video-label-mix" ng-click="randomMakeupVideo()">
           Makeup
           </p>
-         <br>
-         <br>
-        <div class="embed-responsive embed-responsive-4by3" id="video-border-mix"> 
+          <br>
+          <br>
+          <a class="btn btn-default hvr-fade" id="shuffle-button" ng-click="randomMakeupVideo()">shuffle</a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="embed-responsive embed-responsive-4by3" id="video-border-mix"> 
           <center>
+            <br>
             <br>
             <p class="question-mark">
               ?
@@ -55,22 +60,29 @@
           </center>
           <div ng-bind-html="makeupVideoEmbed"></div> 
         </div>
-        <br>
+        </div>
         
-        <a class="btn btn-default hvr-fade" id="shuffle-button" ng-click="randomMakeupVideo()">SHUFFLE</a>
-        
-        
+      </div>
     </div>
   </div>
-  <div class="col-md-4 hair-image text-center">
-    <div class="space-hair">
+</div>
+
+<div class="row hair-image">
+  <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+    <div class="space-hair-image">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 space-hair-text">
           <p class="btn btn-default" id="video-label-mix" ng-click="randomHairVideo()">
           Hair
-        </p>
-        <br>
-        <br>
-        <div class="embed-responsive embed-responsive-4by3" id="video-border-mix">
+          </p>
+          <br>
+          <br>
+          <a class="btn btn-default hvr-fade" id="shuffle-button" ng-click="randomHairVideo()">shuffle</a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="embed-responsive embed-responsive-4by3" id="video-border-mix"> 
           <center>
+            <br>
             <br>
             <p class="question-mark">
               ?
@@ -78,23 +90,29 @@
           </center>
           <div ng-bind-html="hairVideoEmbed"></div> 
         </div>
-        <br>
+        </div>
         
-        <a class="btn btn-default hvr-fade" id="shuffle-button" ng-click="randomHairVideo()">SHUFFLE</a>
-        
-        
+      </div>
     </div>
-    
   </div>
-  <div class="col-md-4 outfit-image text-center">
-    <div class="space-outfit">
+</div>
+
+<div class="row outfit-image">
+  <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+    <div class="space-outfit-image">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 space-outfit-text">
           <p class="btn btn-default" id="video-label-mix" ng-click="randomOutfitVideo()">
           Outfit
           </p>
           <br>
           <br>
-        <div class="embed-responsive embed-responsive-4by3" id="video-border-mix">
+          <a class="btn btn-default hvr-fade" id="shuffle-button" ng-click="randomOutfitVideo()">shuffle</a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="embed-responsive embed-responsive-4by3" id="video-border-mix"> 
           <center>
+            <br>
             <br>
             <p class="question-mark">
               ?
@@ -102,15 +120,17 @@
           </center>
           <div ng-bind-html="outfitVideoEmbed"></div> 
         </div>
-        <br>
+        </div>
         
-        <a class="btn btn-default hvr-fade" id="shuffle-button" ng-click="randomOutfitVideo()">SHUFFLE</a>
-        
-        
+      </div>
     </div>
-    
   </div>
 </div>
+
+
+
+
+
 
 
 

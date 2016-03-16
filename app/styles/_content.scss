@@ -265,7 +265,7 @@ hr .title {
   color: white;
   opacity: 1;
   filter: alpha(opacity=40);
-  border-top: 2px solid white;
+  border-bottom: 1px solid white;
 }
 
 .daytime-looks:hover {
@@ -291,8 +291,8 @@ hr .title {
   color: white;
   opacity: 1;
   filter: alpha(opacity=40);
-  border-left: 15px solid white;
-  border-top: 2px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .evening-looks:hover {
@@ -318,8 +318,8 @@ hr .title {
   color: white;
   opacity: 1;
   filter: alpha(opacity=40);
-  border-left: 15px solid white;
-  border-top: 2px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .mix-looks:hover {
@@ -332,12 +332,21 @@ hr .title {
   padding-bottom: 50px;
 }
 
+.space-looks-mix {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
 .lookbook-title {
   font-size: 35px;
   color: black;
 }
 
-@media (min-width: 995px) {
+.space-flower {
+  padding-top: 400px;
+}
+
+@media (min-width: 800px) {
   .daytime-looks {
     background-image: url('../images/daytime.png');
     background-repeat: none;
@@ -356,6 +365,7 @@ hr .title {
     color: white;
     opacity: 1;
     filter: alpha(opacity=40); 
+    border-bottom: 1px solid white;
   }
   .evening-looks {
     background-image: url('../images/evening.png');
@@ -375,7 +385,8 @@ hr .title {
     color: white;
     opacity: 1;
     filter: alpha(opacity=40);
-    border-left: 15px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
   }
 
   .mix-looks {
@@ -396,17 +407,27 @@ hr .title {
     color: white;
     opacity: 1;
     filter: alpha(opacity=40);
-    border-left: 15px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
   }
 
   .space-looks {
-    padding-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+  }
+
+  .space-looks-mix {
+    padding-top: 200px;
     padding-bottom: 50px;
   }
 
   .lookbook-title {
     font-size: 45px;
     color: black;
+  }
+
+  .space-flower {
+    padding-top: 500px;
   }
 }
 
@@ -418,23 +439,23 @@ hr .title {
   font-size: 14px;
   background: white;
   color: black;
-  margin-left: 115px;
+  margin-left: 15px;
 }
 
 .mix-lookbook-button {
-  padding: 1px 12px;
+  padding: 1px 11px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
   font-size: 14px;
   background: white;
   color: black;
-  margin-left: 120px;
+  margin-left: 20px;
 }
 
 @media (min-width: 768px) {
   .lookbook-buttons {
-    padding: 1px 18px;
+    padding: 1px 15px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
@@ -444,7 +465,7 @@ hr .title {
     margin-left: 115px;
   }
   .mix-lookbook-button {
-    padding: 1px 18px;
+    padding: 1px 15px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
@@ -468,10 +489,9 @@ hr .title {
 }
 
 .question-title {
-  font-size: 18px;
-  padding: 7px;
-  color: white;
-  background: black;
+  font-size: 25px;
+  padding: 30px;
+  color: black;
   -moz-animation: fadeIn 5s;
   -ms-animation: fadeIn 5s;
   -o-animation: fadeIn 5s;
@@ -481,10 +501,9 @@ hr .title {
 
 @media (min-width: 768px) {
   .question-title {
-    font-size: 20px;
-    padding: 9px;
-    color: white;
-    background: black;
+    font-size: 50px;
+    padding: 50px;
+    color: black;
     -moz-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
@@ -494,21 +513,21 @@ hr .title {
 }
 
 .daytime-logo {
-  margin-left: 120px;
-  font-size: 25px;
-  padding-bottom: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+  padding-top: 40px;
 }
 
 .evening-logo {
-  margin-left: 120px;
-  font-size: 25px;
-  padding-bottom: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+  padding-top: 40px;
 }
 
 .mix-logo {
-  margin-left: 120px;
-  font-size: 25px;
-  padding-bottom: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+  padding-top: 40px;
 }
 
 @media (min-width: 768px) {
@@ -620,7 +639,6 @@ hr .title {
 /* start daytime view */
 
 .daytime-text {
-  margin-top: 50px;
   font-size: 35px;
   color: black;
 }
@@ -764,55 +782,53 @@ hr .title {
 
 .work-look-title {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .cafe-look-title {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .lunch-look-title {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .date-look-title {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .errands-look-title {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 @media (min-width: 768px) {
   .daytime-text {
-    margin-top: 50px;
     font-size: 50px;
     color: black;
   }
   .work-look-title {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
   }
   .cafe-look-title {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
   }
   .lunch-look-title {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
   }
   .date-look-title {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
   }
-
   .errands-look-title {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 
@@ -1021,7 +1037,7 @@ hr .title {
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
-    font-size: 35px;
+    font-size: 25px;
     background: transparent;
     color: white;
   }
@@ -1055,11 +1071,11 @@ hr .title {
 }
 
 #theme-button {
-  padding: 3px 13px;
+  padding: 1px 10px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 12px;
+  font-size: 11px;
   background: white;
   color: black;
 }
@@ -1076,11 +1092,11 @@ hr .title {
 
 @media (min-width: 768px) {
   #theme-button {
-    padding: 3px 17px;
+    padding: 1px 15px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
-    font-size: 15px;
+    font-size: 17px;
     background: white;
     color: black;
   }
@@ -1114,7 +1130,6 @@ hr .title {
 /* start evening view */
 
 .evening-text {
-  margin-top: 50px;
   font-size: 35px;
   color: black;
 }
@@ -1278,29 +1293,28 @@ hr .title {
 
 @media (min-width: 768px) {
   .evening-text {
-    margin-top: 50px;
     font-size: 50px;
     color: black;
   }
   .dinner-look-title {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
   }
   .clubbing-look-title {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
   }
   .date-night-look-title {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
   }
   .ladies-night-look-title {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
   }
   .parties-look-title {
     color: white;
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 
@@ -1504,7 +1518,7 @@ hr .title {
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
-    font-size: 35px;
+    font-size: 25px;
     background: transparent;
     color: white;
   }
@@ -1514,14 +1528,12 @@ hr .title {
 /* start mix view */
 
 .mix-text {
-  margin-top: 50px;
   font-size: 35px;
   color: black;
 }
 
 @media (min-width: 768px) {
   .mix-text {
-    margin-top: 50px;
     font-size: 50px;
     color: black;
   }
@@ -1543,7 +1555,7 @@ hr .title {
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
-    font-size: 35px;
+    font-size: 40px;
     background: transparent;
     color: white;
   }
@@ -1555,18 +1567,18 @@ hr .title {
 }
 
 #shuffle-button {
-  padding: 3px 30px;
+  padding: 1px 13px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
-  font-size: 15px;
+  font-size: 12px;
   background: white;
   color: black;
 }
 
 @media (min-width: 768px) {
   #shuffle-button {
-    padding: 3px 30px;
+    padding: 1px 20px;
     border-radius: 0;
     border-color: transparent;
     display: inline-block;
@@ -1583,32 +1595,34 @@ hr .title {
 }
 
 .question-mark {
-  font-size: 100px;
-  color: white;
+  font-size: 30px;
+  color: black;
 }
 
 @media (min-width: 768px) {
   .question-mark {
-    font-size: 125px;
-    color: white;
+    font-size: 80px;
+    color: black;
   }
 }
 
 #video-border-mix {
   padding: 1em;
   margin: 1em;
-  height: 202px;
+  height: 150px;
+  width: 165px;
   border: 1px solid white;
-  background: rgba(255,255,255,0.1);
+  background: white;
 }
 
 @media (min-width: 768px) {
   #video-border-mix {
     padding: 1em;
     margin: 1em;
-    height: 244px;
+    height: 250px;
+    width: 350px;
     border: 1px solid white;
-    background: rgba(255,255,255,0.1);
+    background: white;
   }
 }
 
@@ -1629,16 +1643,19 @@ hr .title {
   border-top: 2px solid white;
 }
 
-.space-makeup {
+.space-makeup-image {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.space-makeup-text {
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .hair-image {
-  background-image: url('../images/hair.png');
+  background-image: url('../images/hairbg.png');
   background-repeat: none;
   background-attachment: scroll;
-  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -1651,9 +1668,13 @@ hr .title {
   border-top: 2px solid white;
 }
 
-.space-hair {
+.space-hair-image {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.space-hair-text {
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .outfit-image {
@@ -1673,9 +1694,13 @@ hr .title {
   border-top: 2px solid white;
 }
 
-.space-outfit {
+.space-outfit-image {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.space-outfit-text {
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 @media (min-width: 768px) {
@@ -1695,16 +1720,19 @@ hr .title {
     animation: fadeIn 5s;
   }
 
-  .space-makeup {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  .space-makeup-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .space-makeup-text {
+    padding-top: 100px;
   }
 
   .hair-image {
-    background-image: url('../images/hair.png');
+    background-image: url('../images/hairbg.png');
     background-repeat: none;
     background-attachment: scroll;
-    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1717,9 +1745,13 @@ hr .title {
     border-left: 15px solid white;
   }
 
-  .space-hair {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  .space-hair-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .space-hair-text {
+    padding-top: 100px;
   }
 
   .outfit-image {
@@ -1739,9 +1771,13 @@ hr .title {
     border-left: 15px solid white;
   }
 
-  .space-outfit {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  .space-outfit-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .space-outfit-text {
+    padding-top: 100px;
   }
 }
 
@@ -2238,7 +2274,7 @@ hr .title {
 }
 
 #back-button {
-  padding: 3px 18px;
+  padding: 1px 17px;
   border-radius: 0;
   border-color: transparent;
   display: inline-block;
@@ -2261,7 +2297,7 @@ hr .title {
 @media (min-width: 990px) {
   .work-look-main-title {
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
   }
 
@@ -2319,7 +2355,7 @@ hr .title {
 @media (min-width: 990px) {
   .cafe-look-main-title {
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
   }
 
@@ -2377,7 +2413,7 @@ hr .title {
 @media (min-width: 990px) {
   .lunch-look-main-title {
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
   }
 
@@ -2435,7 +2471,7 @@ hr .title {
 @media (min-width: 990px) {
   .date-look-main-title {
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
   }  
 
@@ -2492,7 +2528,7 @@ hr .title {
 @media (min-width: 990px) {
   .errands-look-main-title {
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
   }
 
@@ -2554,7 +2590,7 @@ hr .title {
 @media (min-width: 990px) {
   .dinner-look-main-title {
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
   }
 
@@ -2612,7 +2648,7 @@ hr .title {
 @media (min-width: 990px) {
   .clubbing-look-main-title {
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
   }
 
@@ -2670,7 +2706,7 @@ hr .title {
 @media (min-width: 990px) {
   .datenight-look-main-title {
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
   }
 
@@ -2729,7 +2765,7 @@ hr .title {
 @media (min-width: 990px) {
   .ladiesnight-look-main-title {
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
   }
 
@@ -2788,7 +2824,7 @@ hr .title {
 @media (min-width: 990px) {
   .parties-look-main-title {
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
   }
 
