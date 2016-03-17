@@ -1972,7 +1972,11 @@ hr .title {
   padding-bottom: 100px;
   font-size: 25px;
   color: white;
-  
+  -moz-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
 
 #search-box-colors {
@@ -2219,7 +2223,11 @@ hr .title {
     padding-bottom: 200px;
     font-size: 25px;
     color: white;
-    
+    -moz-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
   }
 
   #search-box-colors {
